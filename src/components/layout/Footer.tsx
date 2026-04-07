@@ -21,7 +21,7 @@ export default function Footer(): ReactElement {
 
           <div className="footer-links">
             <h4>{t('footer.quickLinks')}</h4>
-            <ul className="footer-link-list">
+            <ul className="footer-link-list" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0' }}>
               <li><Link to="/esg-overview">{isKo ? 'ESG 개론' : 'ESG Overview'}</Link></li>
               <li><Link to="/environmental">{isKo ? '환경(E)' : 'Environmental'}</Link></li>
               <li><Link to="/social">{isKo ? '사회(S)' : 'Social'}</Link></li>
