@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="12" fill="#FFFBEB"/>
+  <!-- Scroll document -->
+  <rect x="120" y="35" width="160" height="200" rx="4" fill="white" stroke="#F59E0B" stroke-width="2.5"/>
+  <!-- Scroll top curl -->
+  <ellipse cx="200" cy="38" rx="85" ry="12" fill="white" stroke="#F59E0B" stroke-width="2"/>
+  <rect x="115" y="35" width="170" height="14" fill="white"/>
+  <!-- Scroll bottom curl -->
+  <ellipse cx="200" cy="233" rx="85" ry="12" fill="white" stroke="#F59E0B" stroke-width="2"/>
+  <rect x="115" y="225" width="170" height="10" fill="white"/>
+  <!-- Document title line -->
+  <rect x="150" y="62" width="100" height="8" rx="4" fill="#F59E0B" opacity="0.6"/>
+  <!-- Principle lines -->
+  <text x="145" y="95" font-family="sans-serif" font-size="10" fill="#F59E0B" font-weight="bold">I.</text>
+  <rect x="160" y="87" width="95" height="6" rx="3" fill="#F59E0B" opacity="0.3"/>
+  <text x="145" y="115" font-family="sans-serif" font-size="10" fill="#F59E0B" font-weight="bold">II.</text>
+  <rect x="163" y="107" width="85" height="6" rx="3" fill="#F59E0B" opacity="0.3"/>
+  <text x="145" y="135" font-family="sans-serif" font-size="10" fill="#F59E0B" font-weight="bold">III.</text>
+  <rect x="168" y="127" width="75" height="6" rx="3" fill="#F59E0B" opacity="0.3"/>
+  <text x="145" y="155" font-family="sans-serif" font-size="10" fill="#F59E0B" font-weight="bold">IV.</text>
+  <rect x="165" y="147" width="90" height="6" rx="3" fill="#F59E0B" opacity="0.3"/>
+  <text x="145" y="175" font-family="sans-serif" font-size="10" fill="#F59E0B" font-weight="bold">V.</text>
+  <rect x="160" y="167" width="80" height="6" rx="3" fill="#F59E0B" opacity="0.3"/>
+  <text x="145" y="195" font-family="sans-serif" font-size="10" fill="#F59E0B" font-weight="bold">VI.</text>
+  <rect x="163" y="187" width="70" height="6" rx="3" fill="#F59E0B" opacity="0.3"/>
+  <!-- Wax seal -->
+  <circle cx="290" cy="210" r="28" fill="#D97706"/>
+  <circle cx="290" cy="210" r="22" fill="#F59E0B"/>
+  <circle cx="290" cy="210" r="16" fill="#D97706" opacity="0.3"/>
+  <text x="290" y="216" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="white">PRI</text>
+  <!-- Ribbon from seal -->
+  <path d="M275,235 L270,270 L280,260 L290,270 L300,260 L310,270 L305,235" fill="#F59E0B" opacity="0.4"/>
+  <!-- Label -->
+  <text x="200" y="280" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#F59E0B" opacity="0.6">Investment Principles</text>
+</svg>

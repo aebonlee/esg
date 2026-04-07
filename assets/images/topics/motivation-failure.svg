@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="12" fill="#F3F4F6"/>
+
+  <!-- Title -->
+  <text x="200" y="26" text-anchor="middle" fill="#334155" font-size="14" font-family="system-ui" font-weight="700">Learning from Failure</text>
+
+  <!-- Ground path -->
+  <line x1="20" y1="200" x2="380" y2="200" stroke="#CBD5E1" stroke-width="2"/>
+
+  <!-- Growth arrow across the top -->
+  <line x1="40" y1="50" x2="360" y2="50" stroke="#F59E0B" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <polygon points="360,45 375,50 360,55" fill="#F59E0B"/>
+  <text x="200" y="45" text-anchor="middle" fill="#F59E0B" font-size="9" font-family="system-ui" font-weight="700">Growth Through Failure →</text>
+
+  <!-- STAGE 1: Fall - person falling -->
+  <g transform="translate(65,160)">
+    <!-- Wall/barrier -->
+    <rect x="-25" y="-30" width="12" height="70" rx="2" fill="#94A3B8" opacity="0.5"/>
+    <!-- Person falling (tilted) -->
+    <g transform="rotate(35, 10, 0)">
+      <circle cx="10" cy="-20" r="8" fill="#F59E0B" opacity="0.7"/>
+      <line x1="10" y1="-12" x2="10" y2="10" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+      <line x1="10" y1="-5" x2="0" y2="5" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+      <line x1="10" y1="-5" x2="20" y2="2" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+      <line x1="10" y1="10" x2="3" y2="22" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+      <line x1="10" y1="10" x2="17" y2="22" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+    </g>
+    <!-- Impact lines -->
+    <line x1="30" y1="15" x2="38" y2="10" stroke="#EF4444" stroke-width="1" opacity="0.5"/>
+    <line x1="30" y1="20" x2="40" y2="20" stroke="#EF4444" stroke-width="1" opacity="0.5"/>
+    <line x1="30" y1="25" x2="38" y2="30" stroke="#EF4444" stroke-width="1" opacity="0.5"/>
+  </g>
+  <text x="65" y="220" text-anchor="middle" fill="#EF4444" font-size="10" font-family="system-ui" font-weight="700">Fall</text>
+
+  <!-- Arrow 1→2 -->
+  <line x1="100" y1="180" x2="135" y2="180" stroke="#F59E0B" stroke-width="1.5"/>
+  <polygon points="135,176 143,180 135,184" fill="#F59E0B"/>
+
+  <!-- STAGE 2: Analyze - person sitting thinking -->
+  <g transform="translate(170,160)">
+    <!-- Person sitting -->
+    <circle cx="0" cy="-20" r="8" fill="#F59E0B" opacity="0.8"/>
+    <line x1="0" y1="-12" x2="0" y2="5" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+    <line x1="0" y1="-5" x2="-10" y2="-10" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+    <line x1="0" y1="-5" x2="8" y2="0" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+    <line x1="0" y1="5" x2="-8" y2="16" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+    <line x1="0" y1="5" x2="8" y2="16" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+    <!-- Thought bubble -->
+    <circle cx="15" cy="-35" r="10" fill="white" stroke="#F59E0B" stroke-width="1"/>
+    <text x="15" y="-32" text-anchor="middle" fill="#F59E0B" font-size="10" font-family="system-ui">?</text>
+    <circle cx="8" cy="-24" r="2.5" fill="white" stroke="#F59E0B" stroke-width="0.8"/>
+    <circle cx="5" cy="-20" r="1.5" fill="white" stroke="#F59E0B" stroke-width="0.6"/>
+  </g>
+  <text x="170" y="220" text-anchor="middle" fill="#D97706" font-size="10" font-family="system-ui" font-weight="700">Analyze</text>
+
+  <!-- Arrow 2→3 -->
+  <line x1="205" y1="180" x2="240" y2="180" stroke="#F59E0B" stroke-width="1.5"/>
+  <polygon points="240,176 248,180 240,184" fill="#F59E0B"/>
+
+  <!-- STAGE 3: Adjust - person getting up with tool -->
+  <g transform="translate(275,160)">
+    <!-- Person standing, adjusting -->
+    <circle cx="0" cy="-25" r="8" fill="#F59E0B" opacity="0.85"/>
+    <line x1="0" y1="-17" x2="0" y2="5" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" opacity="0.85"/>
+    <line x1="0" y1="-8" x2="-12" y2="-15" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+    <line x1="0" y1="-8" x2="12" y2="-2" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+    <line x1="0" y1="5" x2="-6" y2="20" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+    <line x1="0" y1="5" x2="6" y2="20" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+    <!-- Wrench/tool -->
+    <g transform="translate(-14,-18) rotate(-20)">
+      <rect x="0" y="-1.5" width="12" height="3" rx="1" fill="#D97706" opacity="0.6"/>
+      <circle cx="13" cy="0" r="3" fill="none" stroke="#D97706" stroke-width="1.5" opacity="0.6"/>
+    </g>
+  </g>
+  <text x="275" y="220" text-anchor="middle" fill="#D97706" font-size="10" font-family="system-ui" font-weight="700">Adjust</text>
+
+  <!-- Arrow 3→4 -->
+  <line x1="310" y1="180" x2="335" y2="170" stroke="#F59E0B" stroke-width="1.5"/>
+  <polygon points="335,166 343,168 337,174" fill="#F59E0B"/>
+
+  <!-- STAGE 4: Succeed - person jumping over wall -->
+  <g transform="translate(365,130)">
+    <!-- Wall/barrier -->
+    <rect x="-30" y="0" width="12" height="70" rx="2" fill="#94A3B8" opacity="0.5"/>
+    <!-- Person jumping over -->
+    <circle cx="0" cy="-15" r="8" fill="#F59E0B"/>
+    <line x1="0" y1="-7" x2="0" y2="12" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="-10" y2="-8" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="10" y2="-8" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+    <line x1="0" y1="12" x2="-8" y2="22" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+    <line x1="0" y1="12" x2="8" y2="20" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+    <!-- Star burst -->
+    <g transform="translate(12,-22)">
+      <path d="M0,-5 L1.2,-1.5 L5,-1.5 L2,0.8 L3,4.5 L0,2 L-3,4.5 L-2,0.8 L-5,-1.5 L-1.2,-1.5Z" fill="#F59E0B" opacity="0.6"/>
+    </g>
+  </g>
+  <text x="365" y="220" text-anchor="middle" fill="#10B981" font-size="10" font-family="system-ui" font-weight="700">Succeed</text>
+
+  <!-- Edison lightbulb reference -->
+  <rect x="40" y="240" width="320" height="48" rx="8" fill="white" stroke="#F59E0B" stroke-width="1" opacity="0.9"/>
+  <!-- Lightbulb icon -->
+  <g transform="translate(62,264)">
+    <path d="M0,-12 Q-10,-8 -7,0 Q-5,5 -4,8 L4,8 Q5,5 7,0 Q10,-8 0,-12Z" fill="#F59E0B" opacity="0.3"/>
+    <path d="M0,-12 Q-6,-9 -5,-3 Q-4,2 -3,5 L3,5 Q4,2 5,-3 Q6,-9 0,-12Z" fill="#FBBF24" opacity="0.5"/>
+    <rect x="-3" y="8" width="6" height="4" rx="1" fill="#D97706" opacity="0.5"/>
+    <line x1="0" y1="-6" x2="0" y2="-1" stroke="#F59E0B" stroke-width="1" stroke-linecap="round"/>
+    <line x1="-3" y1="-4" x2="-1" y2="-1" stroke="#F59E0B" stroke-width="1" stroke-linecap="round"/>
+    <line x1="3" y1="-4" x2="1" y2="-1" stroke="#F59E0B" stroke-width="1" stroke-linecap="round"/>
+  </g>
+  <text x="210" y="258" text-anchor="middle" fill="#334155" font-size="8" font-family="system-ui" font-style="italic">"I have not failed. I've just found 10,000 ways that won't work."</text>
+  <text x="210" y="275" text-anchor="middle" fill="#64748B" font-size="8" font-family="system-ui" font-weight="600">- Thomas Edison</text>
+</svg>

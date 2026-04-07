@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="12" fill="#FFF1F2"/>
+  <!-- Chart baseline -->
+  <line x1="80" y1="230" x2="340" y2="230" stroke="#E11D48" stroke-width="2" opacity="0.3"/>
+  <line x1="80" y1="230" x2="80" y2="50" stroke="#E11D48" stroke-width="2" opacity="0.3"/>
+  <!-- Bar 1 -->
+  <rect x="105" y="185" width="36" height="45" rx="4" fill="#E11D48" opacity="0.4"/>
+  <!-- Bar 2 -->
+  <rect x="155" y="155" width="36" height="75" rx="4" fill="#E11D48" opacity="0.55"/>
+  <!-- Bar 3 -->
+  <rect x="205" y="120" width="36" height="110" rx="4" fill="#E11D48" opacity="0.7"/>
+  <!-- Bar 4 -->
+  <rect x="255" y="85" width="36" height="145" rx="4" fill="#E11D48" opacity="0.85"/>
+  <!-- Bar 5 -->
+  <rect x="305" y="60" width="36" height="170" rx="4" fill="#E11D48"/>
+  <!-- Upward arrow -->
+  <line x1="115" y1="175" x2="325" y2="45" stroke="#BE123C" stroke-width="3" stroke-dasharray="6 4" opacity="0.6"/>
+  <!-- Arrow head -->
+  <polygon points="325,45 310,55 320,60" fill="#BE123C" opacity="0.6"/>
+  <!-- Y-axis labels -->
+  <text x="72" y="190" text-anchor="end" font-family="sans-serif" font-size="9" fill="#E11D48" opacity="0.6">Low</text>
+  <text x="72" y="120" text-anchor="end" font-family="sans-serif" font-size="9" fill="#E11D48" opacity="0.6">Mid</text>
+  <text x="72" y="60" text-anchor="end" font-family="sans-serif" font-size="9" fill="#E11D48" opacity="0.6">High</text>
+  <!-- X-axis labels -->
+  <text x="123" y="248" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#E11D48" opacity="0.6">Y1</text>
+  <text x="173" y="248" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#E11D48" opacity="0.6">Y2</text>
+  <text x="223" y="248" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#E11D48" opacity="0.6">Y3</text>
+  <text x="273" y="248" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#E11D48" opacity="0.6">Y4</text>
+  <text x="323" y="248" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#E11D48" opacity="0.6">Y5</text>
+  <!-- Title -->
+  <text x="200" y="285" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#E11D48">Social Impact</text>
+</svg>

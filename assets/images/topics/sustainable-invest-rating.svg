@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="12" fill="#FFFBEB"/>
+  <!-- Rating card -->
+  <rect x="80" y="30" width="240" height="100" rx="10" fill="white" stroke="#F59E0B" stroke-width="2"/>
+  <!-- Stars -->
+  <polygon points="130,65 134,75 145,77 137,84 139,95 130,89 121,95 123,84 115,77 126,75" fill="#F59E0B"/>
+  <polygon points="170,65 174,75 185,77 177,84 179,95 170,89 161,95 163,84 155,77 166,75" fill="#F59E0B"/>
+  <polygon points="210,65 214,75 225,77 217,84 219,95 210,89 201,95 203,84 195,77 206,75" fill="#F59E0B"/>
+  <polygon points="250,65 254,75 265,77 257,84 259,95 250,89 241,95 243,84 235,77 246,75" fill="#F59E0B"/>
+  <polygon points="290,65 294,75 305,77 297,84 299,95 290,89 281,95 283,84 275,77 286,75" fill="#F59E0B" opacity="0.25"/>
+  <!-- Rating text -->
+  <text x="200" y="55" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#D97706">ESG Rating</text>
+  <text x="200" y="118" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#F59E0B">AA</text>
+  <!-- Graph below -->
+  <rect x="60" y="150" width="280" height="120" rx="8" fill="white" stroke="#F59E0B" stroke-width="1.5"/>
+  <!-- Graph axes -->
+  <line x1="90" y1="250" x2="320" y2="250" stroke="#F59E0B" stroke-width="1.5" opacity="0.5"/>
+  <line x1="90" y1="165" x2="90" y2="250" stroke="#F59E0B" stroke-width="1.5" opacity="0.5"/>
+  <!-- Bar chart representing ratings distribution -->
+  <rect x="110" y="230" width="25" height="20" rx="3" fill="#F59E0B" opacity="0.3"/>
+  <rect x="145" y="215" width="25" height="35" rx="3" fill="#F59E0B" opacity="0.45"/>
+  <rect x="180" y="195" width="25" height="55" rx="3" fill="#F59E0B" opacity="0.6"/>
+  <rect x="215" y="180" width="25" height="70" rx="3" fill="#F59E0B" opacity="0.8"/>
+  <rect x="250" y="190" width="25" height="60" rx="3" fill="#F59E0B" opacity="0.65"/>
+  <rect x="285" y="210" width="25" height="40" rx="3" fill="#F59E0B" opacity="0.4"/>
+  <!-- Axis labels -->
+  <text x="122" y="262" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#F59E0B" opacity="0.6">CCC</text>
+  <text x="157" y="262" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#F59E0B" opacity="0.6">B</text>
+  <text x="192" y="262" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#F59E0B" opacity="0.6">BB</text>
+  <text x="227" y="262" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#F59E0B" opacity="0.6">A</text>
+  <text x="262" y="262" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#F59E0B" opacity="0.6">AA</text>
+  <text x="297" y="262" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#F59E0B" opacity="0.6">AAA</text>
+  <!-- Label -->
+  <text x="200" y="290" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#F59E0B" opacity="0.6">ESG Rating Analysis</text>
+</svg>

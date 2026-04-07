@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="12" fill="#FFF1F2"/>
+  <!-- Circle of people holding hands -->
+  <!-- Person 1 (top) -->
+  <circle cx="200" cy="65" r="16" fill="#E11D48"/>
+  <rect x="190" y="84" width="20" height="18" rx="6" fill="#E11D48"/>
+  <!-- Person 2 (top-right) -->
+  <circle cx="275" cy="95" r="16" fill="#FB7185"/>
+  <rect x="265" y="114" width="20" height="18" rx="6" fill="#FB7185"/>
+  <!-- Person 3 (right) -->
+  <circle cx="305" cy="165" r="16" fill="#E11D48"/>
+  <rect x="295" y="184" width="20" height="18" rx="6" fill="#E11D48"/>
+  <!-- Person 4 (bottom-right) -->
+  <circle cx="270" cy="230" r="16" fill="#FB7185"/>
+  <rect x="260" y="249" width="20" height="18" rx="6" fill="#FB7185"/>
+  <!-- Person 5 (bottom) -->
+  <circle cx="200" cy="248" r="16" fill="#E11D48"/>
+  <rect x="190" y="267" width="20" height="18" rx="6" fill="#E11D48"/>
+  <!-- Person 6 (bottom-left) -->
+  <circle cx="130" cy="230" r="16" fill="#FB7185"/>
+  <rect x="120" y="249" width="20" height="18" rx="6" fill="#FB7185"/>
+  <!-- Person 7 (left) -->
+  <circle cx="95" cy="165" r="16" fill="#E11D48"/>
+  <rect x="85" y="184" width="20" height="18" rx="6" fill="#E11D48"/>
+  <!-- Person 8 (top-left) -->
+  <circle cx="125" cy="95" r="16" fill="#FB7185"/>
+  <rect x="115" y="114" width="20" height="18" rx="6" fill="#FB7185"/>
+  <!-- Connecting arcs (hands) -->
+  <path d="M216 75 Q248 70 260 88" stroke="#E11D48" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <path d="M288 108 Q305 125 308 148" stroke="#E11D48" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <path d="M308 182 Q302 208 278 222" stroke="#E11D48" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <path d="M255 238 Q235 250 216 248" stroke="#E11D48" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <path d="M184 248 Q165 250 145 238" stroke="#E11D48" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <path d="M122 222 Q100 208 95 182" stroke="#E11D48" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <path d="M95 148 Q98 125 112 108" stroke="#E11D48" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <path d="M140 88 Q155 70 184 75" stroke="#E11D48" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <!-- Center symbol -->
+  <circle cx="200" cy="158" r="28" fill="#E11D48" opacity="0.15"/>
+  <text x="200" y="155" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#E11D48">Co-op</text>
+  <text x="200" y="168" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#E11D48">Together</text>
+</svg>

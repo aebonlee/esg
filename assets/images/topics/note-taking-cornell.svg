@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Background -->
+  <rect width="400" height="300" rx="12" fill="#F3F4F6"/>
+
+  <!-- Subtle grid pattern -->
+  <defs>
+    <pattern id="grid-cn" x="0" y="0" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="16" height="16" fill="none"/>
+      <path d="M 16 0 L 0 0 0 16" fill="none" stroke="#E5E7EB" stroke-width="0.3"/>
+    </pattern>
+  </defs>
+
+  <!-- Paper shadow -->
+  <rect x="33" y="23" width="340" height="260" rx="4" fill="#D1D5DB" opacity="0.3"/>
+
+  <!-- Main paper -->
+  <rect x="30" y="20" width="340" height="260" rx="4" fill="white" stroke="#D1D5DB" stroke-width="1"/>
+
+  <!-- Title area -->
+  <rect x="30" y="20" width="340" height="30" rx="4" fill="#2563EB" opacity="0.1"/>
+  <rect x="30" y="46" width="340" height="4" rx="0" fill="none"/>
+  <line x1="30" y1="50" x2="370" y2="50" stroke="#2563EB" stroke-width="1.5"/>
+
+  <!-- Title text -->
+  <text x="200" y="40" text-anchor="middle" fill="#2563EB" font-size="11" font-weight="bold" font-family="Arial, sans-serif">CORNELL NOTE METHOD</text>
+
+  <!-- Vertical divider - Cue vs Notes -->
+  <line x1="140" y1="50" x2="140" y2="220" stroke="#2563EB" stroke-width="1.5" stroke-dasharray="4,2"/>
+
+  <!-- Horizontal divider - Notes vs Summary -->
+  <line x1="30" y1="220" x2="370" y2="220" stroke="#2563EB" stroke-width="1.5" stroke-dasharray="4,2"/>
+
+  <!-- CUE COLUMN label -->
+  <text x="85" y="68" text-anchor="middle" fill="#2563EB" font-size="9" font-weight="bold" font-family="Arial, sans-serif">CUE COLUMN</text>
+  <text x="85" y="80" text-anchor="middle" fill="#6B7280" font-size="7" font-family="Arial, sans-serif">Keywords &amp; Questions</text>
+
+  <!-- Cue content -->
+  <rect x="42" y="92" width="86" height="2" rx="1" fill="#2563EB" opacity="0.35"/>
+  <rect x="42" y="102" width="70" height="2" rx="1" fill="#2563EB" opacity="0.25"/>
+  <rect x="42" y="118" width="80" height="2" rx="1" fill="#2563EB" opacity="0.35"/>
+  <rect x="42" y="128" width="65" height="2" rx="1" fill="#2563EB" opacity="0.25"/>
+  <rect x="42" y="144" width="75" height="2" rx="1" fill="#2563EB" opacity="0.35"/>
+  <rect x="42" y="160" width="82" height="2" rx="1" fill="#2563EB" opacity="0.35"/>
+  <rect x="42" y="170" width="60" height="2" rx="1" fill="#2563EB" opacity="0.25"/>
+  <rect x="42" y="186" width="78" height="2" rx="1" fill="#2563EB" opacity="0.35"/>
+
+  <!-- Question marks in cue -->
+  <text x="46" y="96" fill="#2563EB" font-size="7" opacity="0.5" font-family="Arial, sans-serif">Q:</text>
+  <text x="46" y="122" fill="#2563EB" font-size="7" opacity="0.5" font-family="Arial, sans-serif">Q:</text>
+  <text x="46" y="148" fill="#2563EB" font-size="7" opacity="0.5" font-family="Arial, sans-serif">Q:</text>
+  <text x="46" y="164" fill="#2563EB" font-size="7" opacity="0.5" font-family="Arial, sans-serif">Q:</text>
+
+  <!-- NOTE-TAKING AREA label -->
+  <text x="255" y="68" text-anchor="middle" fill="#2563EB" font-size="9" font-weight="bold" font-family="Arial, sans-serif">NOTE-TAKING AREA</text>
+  <text x="255" y="80" text-anchor="middle" fill="#6B7280" font-size="7" font-family="Arial, sans-serif">Main Notes &amp; Details</text>
+
+  <!-- Notes content - lines of writing -->
+  <rect x="152" y="92" width="200" height="2" rx="1" fill="#374151" opacity="0.2"/>
+  <rect x="152" y="100" width="185" height="2" rx="1" fill="#374151" opacity="0.15"/>
+  <rect x="152" y="108" width="205" height="2" rx="1" fill="#374151" opacity="0.2"/>
+  <rect x="152" y="116" width="170" height="2" rx="1" fill="#374151" opacity="0.15"/>
+
+  <rect x="152" y="130" width="195" height="2" rx="1" fill="#374151" opacity="0.2"/>
+  <rect x="152" y="138" width="210" height="2" rx="1" fill="#374151" opacity="0.15"/>
+  <rect x="152" y="146" width="180" height="2" rx="1" fill="#374151" opacity="0.2"/>
+  <rect x="152" y="154" width="200" height="2" rx="1" fill="#374151" opacity="0.15"/>
+
+  <rect x="152" y="168" width="190" height="2" rx="1" fill="#374151" opacity="0.2"/>
+  <rect x="152" y="176" width="205" height="2" rx="1" fill="#374151" opacity="0.15"/>
+  <rect x="152" y="184" width="175" height="2" rx="1" fill="#374151" opacity="0.2"/>
+  <rect x="152" y="192" width="198" height="2" rx="1" fill="#374151" opacity="0.15"/>
+  <rect x="152" y="200" width="160" height="2" rx="1" fill="#374151" opacity="0.2"/>
+  <rect x="152" y="208" width="195" height="2" rx="1" fill="#374151" opacity="0.15"/>
+
+  <!-- Bullet points in notes -->
+  <circle cx="156" cy="93" r="2" fill="#2563EB" opacity="0.4"/>
+  <circle cx="156" cy="131" r="2" fill="#2563EB" opacity="0.4"/>
+  <circle cx="156" cy="169" r="2" fill="#2563EB" opacity="0.4"/>
+
+  <!-- Highlight in notes -->
+  <rect x="195" y="128" width="55" height="8" rx="2" fill="#DBEAFE" opacity="0.6"/>
+  <rect x="240" y="166" width="45" height="8" rx="2" fill="#DBEAFE" opacity="0.6"/>
+
+  <!-- SUMMARY label -->
+  <text x="200" y="237" text-anchor="middle" fill="#2563EB" font-size="9" font-weight="bold" font-family="Arial, sans-serif">SUMMARY</text>
+  <text x="200" y="248" text-anchor="middle" fill="#6B7280" font-size="7" font-family="Arial, sans-serif">Key takeaways in your own words</text>
+
+  <!-- Summary content -->
+  <rect x="42" y="256" width="310" height="2" rx="1" fill="#1D4ED8" opacity="0.25"/>
+  <rect x="42" y="264" width="290" height="2" rx="1" fill="#1D4ED8" opacity="0.2"/>
+  <rect x="42" y="272" width="250" height="2" rx="1" fill="#1D4ED8" opacity="0.15"/>
+
+  <!-- Size indicators with arrows -->
+  <!-- Left width arrow -->
+  <g opacity="0.6">
+    <line x1="35" y1="288" x2="135" y2="288" stroke="#2563EB" stroke-width="0.8"/>
+    <polygon points="35,288 40,285 40,291" fill="#2563EB"/>
+    <polygon points="135,288 130,285 130,291" fill="#2563EB"/>
+    <text x="85" y="296" text-anchor="middle" fill="#2563EB" font-size="6" font-family="Arial, sans-serif">~2.5 in</text>
+  </g>
+
+  <!-- Right width arrow -->
+  <g opacity="0.6">
+    <line x1="145" y1="288" x2="365" y2="288" stroke="#2563EB" stroke-width="0.8"/>
+    <polygon points="145,288 150,285 150,291" fill="#2563EB"/>
+    <polygon points="365,288 360,285 360,291" fill="#2563EB"/>
+    <text x="255" y="296" text-anchor="middle" fill="#2563EB" font-size="6" font-family="Arial, sans-serif">~6 in</text>
+  </g>
+
+  <!-- Decorative corner marks -->
+  <path d="M38 28 L38 24 L42 24" stroke="#2563EB" stroke-width="1" fill="none" opacity="0.3"/>
+  <path d="M362 28 L366 28 L366 32" stroke="#2563EB" stroke-width="1" fill="none" opacity="0.3"/>
+
+  <!-- Step indicators -->
+  <g transform="translate(380, 70)">
+    <circle cx="0" cy="0" r="8" fill="#2563EB" opacity="0.15"/>
+    <text x="0" y="3" text-anchor="middle" fill="#2563EB" font-size="7" font-weight="bold" font-family="Arial, sans-serif">1</text>
+  </g>
+  <g transform="translate(380, 160)">
+    <circle cx="0" cy="0" r="8" fill="#2563EB" opacity="0.15"/>
+    <text x="0" y="3" text-anchor="middle" fill="#2563EB" font-size="7" font-weight="bold" font-family="Arial, sans-serif">2</text>
+  </g>
+  <g transform="translate(380, 245)">
+    <circle cx="0" cy="0" r="8" fill="#2563EB" opacity="0.15"/>
+    <text x="0" y="3" text-anchor="middle" fill="#2563EB" font-size="7" font-weight="bold" font-family="Arial, sans-serif">3</text>
+  </g>
+
+  <!-- Arrows connecting steps -->
+  <path d="M380 80 L380 148" stroke="#2563EB" stroke-width="0.8" fill="none" opacity="0.3"/>
+  <polygon points="380,150 377,144 383,144" fill="#2563EB" opacity="0.3"/>
+  <path d="M380 170 L380 233" stroke="#2563EB" stroke-width="0.8" fill="none" opacity="0.3"/>
+  <polygon points="380,235 377,229 383,229" fill="#2563EB" opacity="0.3"/>
+</svg>

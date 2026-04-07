@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Background -->
+  <rect width="400" height="300" rx="12" fill="#F3F4F6"/>
+
+  <!-- Title -->
+  <text x="200" y="28" text-anchor="middle" fill="#2563EB" font-size="12" font-weight="bold" font-family="Arial, sans-serif">PARA ORGANIZATION SYSTEM</text>
+  <text x="200" y="42" text-anchor="middle" fill="#6B7280" font-size="8" font-family="Arial, sans-serif">by Tiago Forte</text>
+
+  <!-- ===== PROJECTS folder (top-left) ===== -->
+  <g transform="translate(45, 60)">
+    <!-- Folder shape -->
+    <path d="M0 12 L0 80 L140 80 L140 12 L55 12 L48 4 L0 4 Z" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.5" rx="4"/>
+    <rect x="0" y="12" width="140" height="68" rx="3" fill="white" stroke="#2563EB" stroke-width="1.2"/>
+    <!-- Label -->
+    <text x="70" y="30" text-anchor="middle" fill="#2563EB" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Projects</text>
+    <text x="70" y="42" text-anchor="middle" fill="#6B7280" font-size="7" font-family="Arial, sans-serif">Active, with deadlines</text>
+    <!-- Checkmark icons -->
+    <g transform="translate(30, 55)">
+      <rect x="-8" y="-8" width="16" height="16" rx="3" fill="#2563EB" opacity="0.1"/>
+      <polyline points="-4,0 -1,3 4,-3" stroke="#2563EB" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g transform="translate(60, 55)">
+      <rect x="-8" y="-8" width="16" height="16" rx="3" fill="#2563EB" opacity="0.1"/>
+      <polyline points="-4,0 -1,3 4,-3" stroke="#2563EB" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g transform="translate(90, 55)">
+      <rect x="-8" y="-8" width="16" height="16" rx="3" fill="#2563EB" opacity="0.1"/>
+      <rect x="-4" y="-4" width="8" height="8" rx="1" fill="none" stroke="#2563EB" stroke-width="1" opacity="0.4"/>
+    </g>
+    <!-- Status label -->
+    <text x="115" y="72" text-anchor="middle" fill="#2563EB" font-size="6" font-family="Arial, sans-serif" opacity="0.7">In Progress</text>
+  </g>
+
+  <!-- ===== AREAS folder (top-right) ===== -->
+  <g transform="translate(215, 60)">
+    <!-- Folder shape -->
+    <path d="M0 12 L0 80 L140 80 L140 12 L55 12 L48 4 L0 4 Z" fill="#D1FAE5" stroke="#10B981" stroke-width="1.5" rx="4"/>
+    <rect x="0" y="12" width="140" height="68" rx="3" fill="white" stroke="#10B981" stroke-width="1.2"/>
+    <!-- Label -->
+    <text x="70" y="30" text-anchor="middle" fill="#10B981" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Areas</text>
+    <text x="70" y="42" text-anchor="middle" fill="#6B7280" font-size="7" font-family="Arial, sans-serif">Ongoing responsibilities</text>
+    <!-- Refresh/cycle icon -->
+    <g transform="translate(70, 58)">
+      <path d="M8 0 A8 8 0 1 1 0 -8" stroke="#10B981" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+      <polygon points="0,-8 -3,-4 3,-4" fill="#10B981"/>
+      <path d="M-8 0 A8 8 0 1 1 0 8" stroke="#10B981" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+      <polygon points="0,8 -3,4 3,4" fill="#10B981"/>
+    </g>
+    <!-- Status label -->
+    <text x="115" y="72" text-anchor="middle" fill="#10B981" font-size="6" font-family="Arial, sans-serif" opacity="0.7">Continuous</text>
+  </g>
+
+  <!-- ===== RESOURCES folder (bottom-left) ===== -->
+  <g transform="translate(45, 170)">
+    <!-- Folder shape -->
+    <path d="M0 12 L0 80 L140 80 L140 12 L55 12 L48 4 L0 4 Z" fill="#FEF3C7" stroke="#D97706" stroke-width="1.5" rx="4"/>
+    <rect x="0" y="12" width="140" height="68" rx="3" fill="white" stroke="#D97706" stroke-width="1.2"/>
+    <!-- Label -->
+    <text x="70" y="30" text-anchor="middle" fill="#D97706" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Resources</text>
+    <text x="70" y="42" text-anchor="middle" fill="#6B7280" font-size="7" font-family="Arial, sans-serif">Reference materials</text>
+    <!-- Book icon -->
+    <g transform="translate(70, 58)">
+      <rect x="-12" y="-8" width="10" height="14" rx="1" fill="none" stroke="#D97706" stroke-width="1.5"/>
+      <rect x="-1" y="-8" width="10" height="14" rx="1" fill="none" stroke="#D97706" stroke-width="1.5"/>
+      <line x1="-7" y1="-4" x2="-4" y2="-4" stroke="#D97706" stroke-width="0.8" opacity="0.5"/>
+      <line x1="-7" y1="-1" x2="-4" y2="-1" stroke="#D97706" stroke-width="0.8" opacity="0.5"/>
+      <line x1="3" y1="-4" x2="6" y2="-4" stroke="#D97706" stroke-width="0.8" opacity="0.5"/>
+      <line x1="3" y1="-1" x2="6" y2="-1" stroke="#D97706" stroke-width="0.8" opacity="0.5"/>
+    </g>
+    <!-- Status label -->
+    <text x="115" y="72" text-anchor="middle" fill="#D97706" font-size="6" font-family="Arial, sans-serif" opacity="0.7">Reference</text>
+  </g>
+
+  <!-- ===== ARCHIVES folder (bottom-right) ===== -->
+  <g transform="translate(215, 170)">
+    <!-- Folder shape -->
+    <path d="M0 12 L0 80 L140 80 L140 12 L55 12 L48 4 L0 4 Z" fill="#E5E7EB" stroke="#6B7280" stroke-width="1.5" rx="4"/>
+    <rect x="0" y="12" width="140" height="68" rx="3" fill="white" stroke="#6B7280" stroke-width="1.2"/>
+    <!-- Label -->
+    <text x="70" y="30" text-anchor="middle" fill="#6B7280" font-size="10" font-weight="bold" font-family="Arial, sans-serif">Archives</text>
+    <text x="70" y="42" text-anchor="middle" fill="#6B7280" font-size="7" font-family="Arial, sans-serif">Completed items</text>
+    <!-- Box/archive icon -->
+    <g transform="translate(70, 56)">
+      <rect x="-12" y="-6" width="24" height="5" rx="1.5" fill="none" stroke="#6B7280" stroke-width="1.5"/>
+      <rect x="-10" y="-1" width="20" height="12" rx="1" fill="none" stroke="#6B7280" stroke-width="1.5"/>
+      <line x1="-4" y1="4" x2="4" y2="4" stroke="#6B7280" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+    <!-- Status label -->
+    <text x="115" y="72" text-anchor="middle" fill="#6B7280" font-size="6" font-family="Arial, sans-serif" opacity="0.7">Done</text>
+  </g>
+
+  <!-- Flow arrows between folders -->
+  <!-- Projects -> Archives (diagonal) -->
+  <path d="M175 130 C190 140, 220 155, 230 170" stroke="#2563EB" stroke-width="1.2" fill="none" stroke-dasharray="4,2" opacity="0.4" marker-end="url(#arrowBlue)"/>
+
+  <!-- Areas -> Archives (right to down) -->
+  <path d="M340 140 C345 155, 345 160, 340 170" stroke="#10B981" stroke-width="1.2" fill="none" stroke-dasharray="4,2" opacity="0.4"/>
+  <polygon points="340,170 337,164 343,164" fill="#10B981" opacity="0.4"/>
+
+  <!-- Resources -> Projects (bottom to top) -->
+  <path d="M130 170 C135 158, 135 152, 130 140" stroke="#D97706" stroke-width="1.2" fill="none" stroke-dasharray="4,2" opacity="0.4"/>
+  <polygon points="130,140 127,146 133,146" fill="#D97706" opacity="0.4"/>
+
+  <!-- Projects -> Archives arrow marker -->
+  <polygon points="230,170 227,164 233,164" fill="#2563EB" opacity="0.4"/>
+
+  <!-- Center connecting flow text -->
+  <g transform="translate(200, 155)">
+    <circle cx="0" cy="0" r="12" fill="white" stroke="#D1D5DB" stroke-width="1"/>
+    <text x="0" y="1" text-anchor="middle" fill="#6B7280" font-size="5" font-weight="bold" font-family="Arial, sans-serif">FLOW</text>
+    <text x="0" y="8" text-anchor="middle" fill="#6B7280" font-size="4" font-family="Arial, sans-serif">between</text>
+  </g>
+
+  <!-- Bottom PARA letter labels -->
+  <g transform="translate(80, 274)">
+    <circle cx="0" cy="0" r="10" fill="#2563EB" opacity="0.15"/>
+    <text x="0" y="4" text-anchor="middle" fill="#2563EB" font-size="11" font-weight="bold" font-family="Arial, sans-serif">P</text>
+  </g>
+  <g transform="translate(160, 274)">
+    <circle cx="0" cy="0" r="10" fill="#10B981" opacity="0.15"/>
+    <text x="0" y="4" text-anchor="middle" fill="#10B981" font-size="11" font-weight="bold" font-family="Arial, sans-serif">A</text>
+  </g>
+  <g transform="translate(240, 274)">
+    <circle cx="0" cy="0" r="10" fill="#D97706" opacity="0.15"/>
+    <text x="0" y="4" text-anchor="middle" fill="#D97706" font-size="11" font-weight="bold" font-family="Arial, sans-serif">R</text>
+  </g>
+  <g transform="translate(320, 274)">
+    <circle cx="0" cy="0" r="10" fill="#6B7280" opacity="0.15"/>
+    <text x="0" y="4" text-anchor="middle" fill="#6B7280" font-size="11" font-weight="bold" font-family="Arial, sans-serif">A</text>
+  </g>
+
+  <!-- Connecting dots between PARA letters -->
+  <line x1="92" y1="274" x2="148" y2="274" stroke="#D1D5DB" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="172" y1="274" x2="228" y2="274" stroke="#D1D5DB" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="252" y1="274" x2="308" y2="274" stroke="#D1D5DB" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- Decorative corner marks -->
+  <path d="M8 8 L8 4 L12 4" stroke="#2563EB" stroke-width="1" fill="none" opacity="0.3"/>
+  <path d="M392 8 L392 4 L388 4" stroke="#2563EB" stroke-width="1" fill="none" opacity="0.3"/>
+  <path d="M8 292 L8 296 L12 296" stroke="#2563EB" stroke-width="1" fill="none" opacity="0.3"/>
+  <path d="M392 292 L392 296 L388 296" stroke="#2563EB" stroke-width="1" fill="none" opacity="0.3"/>
+</svg>

@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- Background -->
+  <rect width="400" height="300" rx="12" fill="#F3F4F6"/>
+
+  <!-- Wall -->
+  <rect x="40" y="30" width="320" height="200" rx="4" fill="#ECFDF5"/>
+
+  <!-- Floor -->
+  <rect x="20" y="230" width="360" height="50" rx="4" fill="#D1FAE5"/>
+
+  <!-- Desk -->
+  <rect x="80" y="170" width="240" height="12" rx="3" fill="#059669"/>
+  <rect x="90" y="182" width="8" height="52" rx="2" fill="#047857"/>
+  <rect x="302" y="182" width="8" height="52" rx="2" fill="#047857"/>
+
+  <!-- Lamp (proper lighting) -->
+  <rect x="100" y="120" width="6" height="50" rx="2" fill="#6B7280"/>
+  <path d="M85 120 L121 120 L115 105 L91 105 Z" fill="#FCD34D"/>
+  <!-- Light rays -->
+  <line x1="96" y1="120" x2="90" y2="140" stroke="#FDE68A" stroke-width="1" opacity="0.4"/>
+  <line x1="103" y1="120" x2="103" y2="145" stroke="#FDE68A" stroke-width="1" opacity="0.4"/>
+  <line x1="110" y1="120" x2="116" y2="140" stroke="#FDE68A" stroke-width="1" opacity="0.4"/>
+
+  <!-- Monitor -->
+  <rect x="170" y="110" width="80" height="52" rx="4" fill="#1F2937"/>
+  <rect x="174" y="114" width="72" height="44" rx="2" fill="#059669" opacity="0.15"/>
+  <!-- Screen content lines -->
+  <line x1="182" y1="125" x2="225" y2="125" stroke="#059669" stroke-width="2" opacity="0.4"/>
+  <line x1="182" y1="133" x2="238" y2="133" stroke="#059669" stroke-width="1.5" opacity="0.3"/>
+  <line x1="182" y1="140" x2="220" y2="140" stroke="#059669" stroke-width="1.5" opacity="0.3"/>
+  <line x1="182" y1="147" x2="230" y2="147" stroke="#059669" stroke-width="1.5" opacity="0.3"/>
+  <!-- Monitor stand -->
+  <rect x="202" y="162" width="16" height="8" rx="1" fill="#374151"/>
+  <rect x="195" y="168" width="30" height="3" rx="1" fill="#4B5563"/>
+
+  <!-- Headphones on desk -->
+  <path d="M270 155 Q270 138 285 138 Q300 138 300 155" stroke="#6B7280" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <rect x="265" y="152" width="10" height="16" rx="4" fill="#4B5563"/>
+  <rect x="295" y="152" width="10" height="16" rx="4" fill="#4B5563"/>
+
+  <!-- Crossed out phone -->
+  <g transform="translate(135, 135)">
+    <rect x="0" y="0" width="20" height="32" rx="4" fill="#9CA3AF"/>
+    <rect x="3" y="4" width="14" height="20" rx="1" fill="#D1D5DB"/>
+    <circle cx="10" cy="28" r="2" fill="#6B7280"/>
+    <!-- Red X over phone -->
+    <circle cx="10" cy="16" r="18" fill="none" stroke="#EF4444" stroke-width="2.5"/>
+    <line x1="-2" y1="4" x2="22" y2="28" stroke="#EF4444" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Bookshelf on wall -->
+  <rect x="280" y="50" width="70" height="90" rx="3" fill="white" stroke="#059669" stroke-width="1.5"/>
+  <!-- Shelves -->
+  <line x1="280" y1="80" x2="350" y2="80" stroke="#059669" stroke-width="1.5"/>
+  <line x1="280" y1="110" x2="350" y2="110" stroke="#059669" stroke-width="1.5"/>
+  <!-- Books on shelves -->
+  <rect x="285" y="55" width="8" height="24" rx="1" fill="#059669"/>
+  <rect x="295" y="58" width="8" height="21" rx="1" fill="#34D399"/>
+  <rect x="305" y="55" width="10" height="24" rx="1" fill="#10B981"/>
+  <rect x="317" y="60" width="7" height="19" rx="1" fill="#6EE7B7"/>
+  <rect x="326" y="56" width="9" height="23" rx="1" fill="#A7F3D0"/>
+
+  <rect x="285" y="84" width="10" height="24" rx="1" fill="#34D399"/>
+  <rect x="297" y="87" width="8" height="21" rx="1" fill="#059669"/>
+  <rect x="308" y="84" width="9" height="24" rx="1" fill="#6EE7B7"/>
+  <rect x="320" y="86" width="8" height="22" rx="1" fill="#10B981"/>
+
+  <rect x="285" y="114" width="8" height="24" rx="1" fill="#A7F3D0"/>
+  <rect x="295" y="116" width="10" height="22" rx="1" fill="#059669"/>
+  <rect x="308" y="114" width="7" height="24" rx="1" fill="#34D399"/>
+
+  <!-- Window (natural light) -->
+  <rect x="60" y="45" width="60" height="55" rx="3" fill="white" stroke="#059669" stroke-width="1.5"/>
+  <line x1="90" y1="45" x2="90" y2="100" stroke="#059669" stroke-width="1"/>
+  <line x1="60" y1="72" x2="120" y2="72" stroke="#059669" stroke-width="1"/>
+  <!-- Sunshine through window -->
+  <circle cx="80" cy="60" r="8" fill="#FDE68A" opacity="0.6"/>
+  <line x1="80" y1="48" x2="80" y2="44" stroke="#FCD34D" stroke-width="1.5" opacity="0.5"/>
+  <line x1="90" y1="53" x2="93" y2="50" stroke="#FCD34D" stroke-width="1.5" opacity="0.5"/>
+  <line x1="70" y1="53" x2="67" y2="50" stroke="#FCD34D" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Clean desk indicator - sparkles -->
+  <g fill="#059669" opacity="0.3">
+    <polygon points="160,168 162,163 164,168 162,173" />
+    <polygon points="240,165 241,162 242,165 241,168" />
+  </g>
+
+  <!-- Chair -->
+  <rect x="185" y="195" width="50" height="6" rx="3" fill="#34D399"/>
+  <rect x="182" y="185" width="56" height="12" rx="5" fill="#059669"/>
+  <rect x="195" y="201" width="6" height="30" rx="2" fill="#047857"/>
+  <rect x="219" y="201" width="6" height="30" rx="2" fill="#047857"/>
+
+  <!-- Check marks for good environment -->
+  <g transform="translate(30, 250)">
+    <circle cx="12" cy="10" r="8" fill="#059669" opacity="0.15"/>
+    <polyline points="7,10 11,14 18,6" stroke="#059669" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <text x="25" y="14" fill="#047857" font-size="9" font-family="sans-serif">Clean</text>
+  </g>
+  <g transform="translate(100, 250)">
+    <circle cx="12" cy="10" r="8" fill="#059669" opacity="0.15"/>
+    <polyline points="7,10 11,14 18,6" stroke="#059669" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <text x="25" y="14" fill="#047857" font-size="9" font-family="sans-serif">Light</text>
+  </g>
+  <g transform="translate(170, 250)">
+    <circle cx="12" cy="10" r="8" fill="#059669" opacity="0.15"/>
+    <polyline points="7,10 11,14 18,6" stroke="#059669" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <text x="25" y="14" fill="#047857" font-size="9" font-family="sans-serif">Focus</text>
+  </g>
+  <g transform="translate(240, 250)">
+    <circle cx="12" cy="10" r="8" fill="#059669" opacity="0.15"/>
+    <polyline points="7,10 11,14 18,6" stroke="#059669" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <text x="25" y="14" fill="#047857" font-size="9" font-family="sans-serif">No Phone</text>
+  </g>
+  <g transform="translate(320, 250)">
+    <circle cx="12" cy="10" r="8" fill="#059669" opacity="0.15"/>
+    <polyline points="7,10 11,14 18,6" stroke="#059669" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <text x="25" y="14" fill="#047857" font-size="9" font-family="sans-serif">Quiet</text>
+  </g>
+</svg>

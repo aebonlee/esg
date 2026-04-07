@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="12" fill="#ECFDF5"/>
+  <!-- Title -->
+  <text x="200" y="35" font-family="sans-serif" font-size="14" font-weight="bold" fill="#374151" text-anchor="middle">Climate Change</text>
+  <!-- Thermometer body -->
+  <rect x="178" y="60" width="24" height="160" rx="12" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+  <!-- Thermometer bulb -->
+  <circle cx="190" cy="230" r="25" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+  <!-- Mercury column (rising) -->
+  <rect x="183" y="100" width="14" height="120" rx="7" fill="#EF4444"/>
+  <circle cx="190" cy="230" r="20" fill="#EF4444"/>
+  <!-- Temperature markers -->
+  <line x1="205" y1="80" x2="218" y2="80" stroke="#6B7280" stroke-width="1.5"/>
+  <text x="225" y="84" font-family="sans-serif" font-size="9" fill="#6B7280">40C</text>
+  <line x1="205" y1="110" x2="215" y2="110" stroke="#6B7280" stroke-width="1"/>
+  <text x="222" y="114" font-family="sans-serif" font-size="9" fill="#6B7280">30C</text>
+  <line x1="205" y1="140" x2="218" y2="140" stroke="#6B7280" stroke-width="1.5"/>
+  <text x="225" y="144" font-family="sans-serif" font-size="9" fill="#6B7280">20C</text>
+  <line x1="205" y1="170" x2="215" y2="170" stroke="#6B7280" stroke-width="1"/>
+  <text x="222" y="174" font-family="sans-serif" font-size="9" fill="#6B7280">10C</text>
+  <line x1="205" y1="200" x2="218" y2="200" stroke="#6B7280" stroke-width="1.5"/>
+  <text x="225" y="204" font-family="sans-serif" font-size="9" fill="#6B7280">0C</text>
+  <!-- Rising arrow -->
+  <path d="M280,220 L280,90 L270,100 M280,90 L290,100" stroke="#EF4444" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Warning indicators -->
+  <text x="300" y="110" font-family="sans-serif" font-size="10" fill="#EF4444" font-weight="bold">+1.5C</text>
+  <text x="300" y="130" font-family="sans-serif" font-size="9" fill="#6B7280">by 2030</text>
+  <!-- Heat waves -->
+  <path d="M100,120 Q110,110 120,120 Q130,130 140,120" stroke="#F59E0B" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M95,140 Q105,130 115,140 Q125,150 135,140" stroke="#F59E0B" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M100,160 Q110,150 120,160 Q130,170 140,160" stroke="#F59E0B" stroke-width="2" fill="none" opacity="0.4"/>
+  <!-- Bottom label -->
+  <text x="200" y="280" font-family="sans-serif" font-size="11" fill="#6B7280" text-anchor="middle">Rising Global Temperatures</text>
+</svg>

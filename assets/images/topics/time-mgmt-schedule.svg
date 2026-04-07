@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="12" fill="#F3F4F6"/>
+
+  <!-- Title -->
+  <text x="200" y="26" text-anchor="middle" fill="#334155" font-size="14" font-family="system-ui" font-weight="700">Time Blocking</text>
+
+  <!-- Clock icon at top -->
+  <circle cx="200" cy="25" r="0" fill="none"/>
+  <g transform="translate(320,22)">
+    <circle cx="0" cy="0" r="10" fill="none" stroke="#0891B2" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="0" y2="-6" stroke="#0891B2" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="4" y2="2" stroke="#0891B2" stroke-width="1.5" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="1.5" fill="#0891B2"/>
+  </g>
+
+  <!-- Time axis labels -->
+  <text x="48" y="58" text-anchor="end" fill="#64748B" font-size="9" font-family="system-ui">8 AM</text>
+  <text x="48" y="78" text-anchor="end" fill="#64748B" font-size="9" font-family="system-ui">9 AM</text>
+  <text x="48" y="118" text-anchor="end" fill="#64748B" font-size="9" font-family="system-ui">10</text>
+  <text x="48" y="158" text-anchor="end" fill="#64748B" font-size="9" font-family="system-ui">11</text>
+  <text x="48" y="178" text-anchor="end" fill="#64748B" font-size="9" font-family="system-ui">12 PM</text>
+  <text x="48" y="198" text-anchor="end" fill="#64748B" font-size="9" font-family="system-ui">1 PM</text>
+  <text x="48" y="228" text-anchor="end" fill="#64748B" font-size="9" font-family="system-ui">3 PM</text>
+  <text x="48" y="248" text-anchor="end" fill="#64748B" font-size="9" font-family="system-ui">4 PM</text>
+  <text x="48" y="268" text-anchor="end" fill="#64748B" font-size="9" font-family="system-ui">6 PM</text>
+  <text x="48" y="288" text-anchor="end" fill="#64748B" font-size="9" font-family="system-ui">8 PM</text>
+
+  <!-- Timeline vertical line -->
+  <line x1="55" y1="48" x2="55" y2="288" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- Block: Morning Prep 8-9 (light) -->
+  <rect x="60" y="48" width="200" height="20" rx="6" fill="#0891B2" opacity="0.2"/>
+  <text x="70" y="62" fill="#065F73" font-size="10" font-family="system-ui" font-weight="600">Morning Routine</text>
+  <text x="250" y="62" fill="#065F73" font-size="8" font-family="system-ui" opacity="0.7">8-9 AM</text>
+
+  <!-- Block: Deep Work 9-12 (large cyan) -->
+  <rect x="60" y="72" width="200" height="100" rx="8" fill="#0891B2" opacity="0.9"/>
+  <!-- Brain icon -->
+  <g transform="translate(80,110)">
+    <circle cx="0" cy="0" r="12" fill="white" opacity="0.2"/>
+    <path d="M-6,-4 Q-6,-10 0,-10 Q6,-10 6,-4 Q8,-2 6,2 Q6,6 2,8 L-2,8 Q-6,6 -6,2 Q-8,-2 -6,-4Z" fill="white" opacity="0.4"/>
+  </g>
+  <text x="100" y="107" fill="white" font-size="13" font-family="system-ui" font-weight="700">Deep Work</text>
+  <text x="100" y="122" fill="white" font-size="9" font-family="system-ui" opacity="0.85">Hardest tasks, new concepts</text>
+  <text x="100" y="137" fill="white" font-size="9" font-family="system-ui" opacity="0.85">Maximum focus &amp; energy</text>
+  <text x="100" y="157" fill="white" font-size="8" font-family="system-ui" opacity="0.7">9 AM - 12 PM (3 hrs)</text>
+
+  <!-- Block: Lunch 12-1 (gray) -->
+  <rect x="60" y="176" width="200" height="16" rx="5" fill="#94A3B8" opacity="0.5"/>
+  <text x="70" y="188" fill="white" font-size="10" font-family="system-ui" font-weight="600">Lunch &amp; Rest</text>
+  <text x="230" y="188" text-anchor="end" fill="white" font-size="8" font-family="system-ui" opacity="0.8">12-1 PM</text>
+
+  <!-- Block: Light Tasks 1-3 (lighter cyan) -->
+  <rect x="60" y="196" width="200" height="28" rx="6" fill="#67CDD8" opacity="0.7"/>
+  <text x="70" y="213" fill="#065F73" font-size="11" font-family="system-ui" font-weight="600">Light Tasks</text>
+  <text x="250" y="213" fill="#065F73" font-size="8" font-family="system-ui" opacity="0.7">1-3 PM</text>
+
+  <!-- Block: Exercise 3-4 (green) -->
+  <rect x="60" y="228" width="200" height="16" rx="5" fill="#10B981" opacity="0.7"/>
+  <text x="70" y="240" fill="white" font-size="10" font-family="system-ui" font-weight="600">Exercise</text>
+  <text x="250" y="240" fill="white" font-size="8" font-family="system-ui" opacity="0.8">3-4 PM</text>
+
+  <!-- Block: Review 4-6 (cyan) -->
+  <rect x="60" y="248" width="200" height="16" rx="5" fill="#0891B2" opacity="0.7"/>
+  <text x="70" y="260" fill="white" font-size="10" font-family="system-ui" font-weight="600">Review &amp; Notes</text>
+  <text x="250" y="260" fill="white" font-size="8" font-family="system-ui" opacity="0.8">4-6 PM</text>
+
+  <!-- Block: Free Time 6-8 (light) -->
+  <rect x="60" y="268" width="200" height="18" rx="6" fill="#0891B2" opacity="0.15"/>
+  <text x="70" y="281" fill="#065F73" font-size="10" font-family="system-ui" font-weight="600">Free Time</text>
+  <text x="250" y="281" fill="#065F73" font-size="8" font-family="system-ui" opacity="0.7">6-8 PM</text>
+
+  <!-- Right-side tips -->
+  <g transform="translate(280, 60)">
+    <rect x="0" y="0" width="108" height="90" rx="8" fill="white" stroke="#0891B2" stroke-width="1" opacity="0.9"/>
+    <text x="54" y="18" text-anchor="middle" fill="#0891B2" font-size="9" font-family="system-ui" font-weight="700">Tips</text>
+    <line x1="10" y1="24" x2="98" y2="24" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="10" y="40" fill="#334155" font-size="7.5" font-family="system-ui">- Hard tasks in morning</text>
+    <text x="10" y="54" fill="#334155" font-size="7.5" font-family="system-ui">- Include breaks</text>
+    <text x="10" y="68" fill="#334155" font-size="7.5" font-family="system-ui">- 20% buffer time</text>
+    <text x="10" y="82" fill="#334155" font-size="7.5" font-family="system-ui">- Review before sleep</text>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(280, 170)">
+    <rect x="0" y="0" width="8" height="8" rx="2" fill="#0891B2" opacity="0.9"/>
+    <text x="14" y="8" fill="#334155" font-size="7.5" font-family="system-ui">Deep Focus</text>
+    <rect x="0" y="14" width="8" height="8" rx="2" fill="#67CDD8" opacity="0.7"/>
+    <text x="14" y="22" fill="#334155" font-size="7.5" font-family="system-ui">Light Tasks</text>
+    <rect x="0" y="28" width="8" height="8" rx="2" fill="#10B981" opacity="0.7"/>
+    <text x="14" y="36" fill="#334155" font-size="7.5" font-family="system-ui">Exercise</text>
+    <rect x="0" y="42" width="8" height="8" rx="2" fill="#94A3B8" opacity="0.5"/>
+    <text x="14" y="50" fill="#334155" font-size="7.5" font-family="system-ui">Break / Rest</text>
+  </g>
+</svg>

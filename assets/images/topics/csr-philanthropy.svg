@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="12" fill="#FFFBEB"/>
+  <!-- Gift box -->
+  <rect x="145" y="140" width="110" height="90" rx="6" fill="#D97706"/>
+  <!-- Gift box ribbon vertical -->
+  <rect x="193" y="140" width="14" height="90" fill="#FBBF24"/>
+  <!-- Gift box ribbon horizontal -->
+  <rect x="145" y="175" width="110" height="14" fill="#FBBF24"/>
+  <!-- Gift box lid -->
+  <rect x="135" y="125" width="130" height="22" rx="4" fill="#B45309"/>
+  <rect x="193" y="125" width="14" height="22" fill="#FBBF24"/>
+  <!-- Bow left -->
+  <ellipse cx="183" cy="118" rx="18" ry="14" fill="#FBBF24"/>
+  <!-- Bow right -->
+  <ellipse cx="217" cy="118" rx="18" ry="14" fill="#FBBF24"/>
+  <!-- Bow center -->
+  <circle cx="200" cy="120" r="8" fill="#D97706"/>
+  <!-- Heart above -->
+  <path d="M200 55 C200 45 185 32 172 37 C159 42 159 60 172 73 L200 96 L228 73 C241 60 241 42 228 37 C215 32 200 45 200 55Z" fill="#D97706" opacity="0.8"/>
+  <!-- Small hearts floating -->
+  <path d="M295 80 C295 76 289 71 284 73 C279 75 279 82 284 87 L295 96 L306 87 C311 82 311 75 306 73 C301 71 295 76 295 80Z" fill="#D97706" opacity="0.3"/>
+  <path d="M115 95 C115 91 110 87 106 89 C102 90 102 96 106 100 L115 107 L124 100 C128 96 128 90 124 89 C120 87 115 91 115 95Z" fill="#D97706" opacity="0.25"/>
+  <path d="M310 150 C310 147 306 144 303 145 C300 146 300 151 303 154 L310 159 L317 154 C320 151 320 146 317 145 C314 144 310 147 310 150Z" fill="#D97706" opacity="0.2"/>
+  <!-- Title -->
+  <text x="200" y="270" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#D97706">Corporate Philanthropy</text>
+</svg>

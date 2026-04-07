@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Background -->
+  <rect width="400" height="300" rx="12" fill="#F3F4F6"/>
+
+  <!-- Title -->
+  <text x="200" y="24" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#9F1239" text-anchor="middle">Multiple Choice Strategy</text>
+
+  <!-- LEFT: Exam Question with Elimination -->
+  <rect x="15" y="36" width="195" height="175" rx="8" fill="white" stroke="#FECDD3" stroke-width="1.5"/>
+
+  <!-- Question header -->
+  <rect x="25" y="44" width="175" height="22" rx="4" fill="#FFF1F2"/>
+  <text x="35" y="59" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#9F1239">Q. Which is correct?</text>
+
+  <!-- Option A - crossed out -->
+  <rect x="30" y="74" width="170" height="24" rx="6" fill="#FEE2E2" stroke="#FECDD3" stroke-width="1"/>
+  <circle cx="45" cy="86" r="8" fill="#FEE2E2" stroke="#EF4444" stroke-width="1.5"/>
+  <text x="45" y="89" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#EF4444" text-anchor="middle">A</text>
+  <line x1="58" y1="86" x2="185" y2="86" stroke="#D1D5DB" stroke-width="4" opacity="0.4"/>
+  <!-- X mark -->
+  <line x1="175" y1="78" x2="190" y2="94" stroke="#EF4444" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="190" y1="78" x2="175" y2="94" stroke="#EF4444" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Option B - crossed out -->
+  <rect x="30" y="104" width="170" height="24" rx="6" fill="#FEE2E2" stroke="#FECDD3" stroke-width="1"/>
+  <circle cx="45" cy="116" r="8" fill="#FEE2E2" stroke="#EF4444" stroke-width="1.5"/>
+  <text x="45" y="119" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#EF4444" text-anchor="middle">B</text>
+  <line x1="58" y1="116" x2="185" y2="116" stroke="#D1D5DB" stroke-width="4" opacity="0.4"/>
+  <line x1="175" y1="108" x2="190" y2="124" stroke="#EF4444" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="190" y1="108" x2="175" y2="124" stroke="#EF4444" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Option C - question mark -->
+  <rect x="30" y="134" width="170" height="24" rx="6" fill="#FEF9C3" stroke="#F59E0B" stroke-width="1.5"/>
+  <circle cx="45" cy="146" r="8" fill="#FEF9C3" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="45" y="149" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#F59E0B" text-anchor="middle">C</text>
+  <rect x="58" y="144" width="90" height="4" rx="1" fill="#D1D5DB"/>
+  <text x="183" y="150" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#F59E0B" text-anchor="middle">?</text>
+
+  <!-- Option D - circled as answer -->
+  <rect x="30" y="164" width="170" height="24" rx="6" fill="#D1FAE5" stroke="#10B981" stroke-width="2"/>
+  <circle cx="45" cy="176" r="8" fill="#D1FAE5" stroke="#10B981" stroke-width="2"/>
+  <text x="45" y="179" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#10B981" text-anchor="middle">D</text>
+  <rect x="58" y="174" width="90" height="4" rx="1" fill="#A7F3D0"/>
+  <!-- Checkmark -->
+  <path d="M176 172 L181 178 L192 168" fill="none" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Elimination label -->
+  <text x="112" y="202" font-family="Arial, sans-serif" font-size="8" fill="#6B7280" text-anchor="middle">Eliminate wrong, find right</text>
+
+  <!-- RIGHT: 3-Pass Funnel -->
+  <rect x="225" y="36" width="165" height="175" rx="8" fill="white" stroke="#FECDD3" stroke-width="1.5"/>
+  <text x="307" y="54" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#374151" text-anchor="middle">3-Pass Method</text>
+
+  <!-- Funnel shape -->
+  <!-- Pass 1: Easy (wide, green) -->
+  <path d="M250 70 L365 70 L355 115 L260 115 Z" fill="#D1FAE5" stroke="#10B981" stroke-width="1.5"/>
+  <text x="307" y="88" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#065F46" text-anchor="middle">Pass 1</text>
+  <text x="307" y="100" font-family="Arial, sans-serif" font-size="8" fill="#065F46" text-anchor="middle">Easy &amp; Quick</text>
+  <!-- Timer icon -->
+  <circle cx="260" cy="88" r="7" fill="none" stroke="#10B981" stroke-width="1"/>
+  <line x1="260" y1="84" x2="260" y2="88" stroke="#10B981" stroke-width="1"/>
+  <line x1="260" y1="88" x2="263" y2="88" stroke="#10B981" stroke-width="1"/>
+  <text x="260" y="108" font-family="Arial, sans-serif" font-size="6" fill="#10B981" text-anchor="middle">&lt;1m</text>
+
+  <!-- Pass 2: Medium (narrower, yellow) -->
+  <path d="M260 118 L355 118 L345 160 L270 160 Z" fill="#FEF9C3" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="307" y="135" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#92400E" text-anchor="middle">Pass 2</text>
+  <text x="307" y="147" font-family="Arial, sans-serif" font-size="8" fill="#92400E" text-anchor="middle">Medium</text>
+  <circle cx="272" cy="135" r="7" fill="none" stroke="#F59E0B" stroke-width="1"/>
+  <line x1="272" y1="131" x2="272" y2="135" stroke="#F59E0B" stroke-width="1"/>
+  <line x1="272" y1="135" x2="275" y2="135" stroke="#F59E0B" stroke-width="1"/>
+  <text x="272" y="155" font-family="Arial, sans-serif" font-size="6" fill="#F59E0B" text-anchor="middle">2-3m</text>
+
+  <!-- Pass 3: Hard (narrow, red) -->
+  <path d="M270 163 L345 163 L335 200 L280 200 Z" fill="#FECDD3" stroke="#E11D48" stroke-width="1.5"/>
+  <text x="307" y="178" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#9F1239" text-anchor="middle">Pass 3</text>
+  <text x="307" y="190" font-family="Arial, sans-serif" font-size="8" fill="#9F1239" text-anchor="middle">Hard</text>
+  <circle cx="282" cy="178" r="7" fill="none" stroke="#E11D48" stroke-width="1"/>
+  <line x1="282" y1="174" x2="282" y2="178" stroke="#E11D48" stroke-width="1"/>
+  <line x1="282" y1="178" x2="285" y2="178" stroke="#E11D48" stroke-width="1"/>
+  <text x="282" y="196" font-family="Arial, sans-serif" font-size="6" fill="#E11D48" text-anchor="middle">rest</text>
+
+  <!-- Bottom insight -->
+  <rect x="30" y="222" width="340" height="50" rx="8" fill="#FFF1F2" stroke="#E11D48" stroke-width="1"/>
+  <text x="200" y="240" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#9F1239" text-anchor="middle">Elimination + 3-Pass = Maximum Score</text>
+  <text x="200" y="255" font-family="Arial, sans-serif" font-size="8" fill="#6B7280" text-anchor="middle">Secure easy points first, then tackle harder questions</text>
+  <text x="200" y="267" font-family="Arial, sans-serif" font-size="8" fill="#6B7280" text-anchor="middle">Never leave blanks (no penalty = always guess)</text>
+
+  <!-- Title bottom -->
+  <text x="200" y="290" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#9F1239" text-anchor="middle">Strategic Elimination &amp; Time Management</text>
+</svg>

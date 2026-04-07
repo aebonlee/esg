@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="16" fill="#F3F4F6"/>
+
+  <!-- Title -->
+  <text x="200" y="24" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#065F46">Paper vs Digital Planner</text>
+
+  <!-- LEFT: Paper Planner -->
+  <text x="100" y="48" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#047857">Paper Planner</text>
+
+  <!-- Notebook body -->
+  <rect x="30" y="58" width="140" height="170" rx="6" fill="white" stroke="#059669" stroke-width="1.5"/>
+  <!-- Spiral binding -->
+  <circle cx="35" cy="72" r="3" fill="none" stroke="#6B7280" stroke-width="1.2"/>
+  <circle cx="35" cy="92" r="3" fill="none" stroke="#6B7280" stroke-width="1.2"/>
+  <circle cx="35" cy="112" r="3" fill="none" stroke="#6B7280" stroke-width="1.2"/>
+  <circle cx="35" cy="132" r="3" fill="none" stroke="#6B7280" stroke-width="1.2"/>
+  <circle cx="35" cy="152" r="3" fill="none" stroke="#6B7280" stroke-width="1.2"/>
+  <circle cx="35" cy="172" r="3" fill="none" stroke="#6B7280" stroke-width="1.2"/>
+  <circle cx="35" cy="192" r="3" fill="none" stroke="#6B7280" stroke-width="1.2"/>
+  <circle cx="35" cy="212" r="3" fill="none" stroke="#6B7280" stroke-width="1.2"/>
+
+  <!-- Red margin line -->
+  <line x1="55" y1="58" x2="55" y2="228" stroke="#EF4444" stroke-width="0.8" opacity="0.3"/>
+
+  <!-- Written lines -->
+  <line x1="62" y1="78" x2="120" y2="78" stroke="#374151" stroke-width="1.2" opacity="0.4"/>
+  <line x1="62" y1="90" x2="145" y2="90" stroke="#374151" stroke-width="1.2" opacity="0.35"/>
+  <line x1="62" y1="102" x2="130" y2="102" stroke="#374151" stroke-width="1.2" opacity="0.3"/>
+  <line x1="62" y1="114" x2="155" y2="114" stroke="#374151" stroke-width="1.2" opacity="0.4"/>
+  <line x1="62" y1="126" x2="138" y2="126" stroke="#374151" stroke-width="1.2" opacity="0.3"/>
+
+  <!-- Checkbox items -->
+  <rect x="62" y="142" width="8" height="8" rx="1" fill="none" stroke="#059669" stroke-width="1.2"/>
+  <polyline points="64,146 66,149 70,143" stroke="#059669" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <line x1="76" y1="147" x2="130" y2="147" stroke="#374151" stroke-width="1" opacity="0.3"/>
+
+  <rect x="62" y="156" width="8" height="8" rx="1" fill="none" stroke="#059669" stroke-width="1.2"/>
+  <polyline points="64,160 66,163 70,157" stroke="#059669" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <line x1="76" y1="161" x2="145" y2="161" stroke="#374151" stroke-width="1" opacity="0.3"/>
+
+  <rect x="62" y="170" width="8" height="8" rx="1" fill="none" stroke="#9CA3AF" stroke-width="1.2"/>
+  <line x1="76" y1="175" x2="125" y2="175" stroke="#374151" stroke-width="1" opacity="0.25"/>
+
+  <!-- Sticky tab -->
+  <rect x="155" y="95" width="15" height="30" rx="2" fill="#FDE68A" opacity="0.8"/>
+  <rect x="155" y="155" width="15" height="25" rx="2" fill="#A7F3D0" opacity="0.8"/>
+
+  <!-- Pencil -->
+  <g transform="translate(130,195) rotate(-30)">
+    <rect x="0" y="0" width="40" height="6" rx="1" fill="#F59E0B"/>
+    <polygon points="40,0 40,6 46,3" fill="#374151"/>
+    <rect x="0" y="0" width="6" height="6" rx="1" fill="#EF4444" opacity="0.5"/>
+  </g>
+
+  <!-- CENTER: VS -->
+  <circle cx="200" cy="145" r="16" fill="#059669"/>
+  <text x="200" y="150" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="800" fill="white">VS</text>
+  <line x1="200" y1="60" x2="200" y2="125" stroke="#059669" stroke-width="1" stroke-dasharray="4,3" opacity="0.3"/>
+  <line x1="200" y1="165" x2="200" y2="230" stroke="#059669" stroke-width="1" stroke-dasharray="4,3" opacity="0.3"/>
+
+  <!-- RIGHT: Digital Planner -->
+  <text x="305" y="48" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#047857">Digital Planner</text>
+
+  <!-- Phone body -->
+  <rect x="260" y="58" width="90" height="170" rx="12" fill="#1F2937" stroke="#374151" stroke-width="1"/>
+  <!-- Screen -->
+  <rect x="265" y="70" width="80" height="145" rx="4" fill="#ECFDF5"/>
+
+  <!-- Status bar -->
+  <rect x="265" y="70" width="80" height="14" rx="4" fill="#059669" opacity="0.2"/>
+  <text x="305" y="80" text-anchor="middle" font-family="sans-serif" font-size="6" fill="#065F46">My Schedule</text>
+
+  <!-- Calendar grid -->
+  <rect x="270" y="88" width="70" height="12" rx="2" fill="#059669" opacity="0.15"/>
+  <text x="305" y="97" text-anchor="middle" font-family="sans-serif" font-size="6" fill="#065F46" font-weight="600">April 2026</text>
+
+  <!-- Time slots -->
+  <text x="274" y="112" font-family="sans-serif" font-size="5" fill="#6B7280">09:00</text>
+  <rect x="296" y="106" width="42" height="10" rx="2" fill="#059669" opacity="0.3"/>
+  <text x="317" y="113" text-anchor="middle" font-family="sans-serif" font-size="5" fill="#065F46">Meeting</text>
+
+  <text x="274" y="126" font-family="sans-serif" font-size="5" fill="#6B7280">10:00</text>
+  <rect x="296" y="120" width="42" height="10" rx="2" fill="#3B82F6" opacity="0.3"/>
+  <text x="317" y="127" text-anchor="middle" font-family="sans-serif" font-size="5" fill="#1E40AF">Study</text>
+
+  <text x="274" y="140" font-family="sans-serif" font-size="5" fill="#6B7280">11:00</text>
+  <rect x="296" y="134" width="42" height="10" rx="2" fill="#8B5CF6" opacity="0.2"/>
+  <text x="317" y="141" text-anchor="middle" font-family="sans-serif" font-size="5" fill="#6D28D9">Review</text>
+
+  <!-- Notification bell -->
+  <g transform="translate(285,158)">
+    <circle cx="0" cy="0" r="7" fill="#FEF3C7" stroke="#F59E0B" stroke-width="0.8"/>
+    <path d="M-3,-3 Q-3,-6 0,-6 Q3,-6 3,-3 L3,0 L-3,0 Z" fill="#F59E0B" opacity="0.5"/>
+    <circle cx="0" cy="1" r="1" fill="#F59E0B" opacity="0.5"/>
+  </g>
+  <text x="298" y="160" font-family="sans-serif" font-size="5" fill="#92400E">Reminder set!</text>
+
+  <!-- Sync icon -->
+  <g transform="translate(285,178)">
+    <circle cx="0" cy="0" r="7" fill="#DBEAFE" stroke="#3B82F6" stroke-width="0.8"/>
+    <path d="M-3,-2 Q-3,-4 0,-4 Q3,-4 3,-2" stroke="#3B82F6" stroke-width="1" fill="none" stroke-linecap="round"/>
+    <path d="M3,2 Q3,4 0,4 Q-3,4 -3,2" stroke="#3B82F6" stroke-width="1" fill="none" stroke-linecap="round"/>
+  </g>
+  <text x="298" y="180" font-family="sans-serif" font-size="5" fill="#1E40AF">Cloud synced</text>
+
+  <!-- Bottom: Pros comparison -->
+  <rect x="20" y="240" width="170" height="48" rx="6" fill="white" stroke="#059669" stroke-width="1" opacity="0.8"/>
+  <text x="105" y="255" text-anchor="middle" font-family="sans-serif" font-size="8" font-weight="600" fill="#047857">Paper Pros</text>
+  <text x="105" y="267" text-anchor="middle" font-family="sans-serif" font-size="6.5" fill="#6B7280">+ Better memory retention</text>
+  <text x="105" y="278" text-anchor="middle" font-family="sans-serif" font-size="6.5" fill="#6B7280">+ No distractions</text>
+
+  <rect x="210" y="240" width="170" height="48" rx="6" fill="white" stroke="#059669" stroke-width="1" opacity="0.8"/>
+  <text x="295" y="255" text-anchor="middle" font-family="sans-serif" font-size="8" font-weight="600" fill="#047857">Digital Pros</text>
+  <text x="295" y="267" text-anchor="middle" font-family="sans-serif" font-size="6.5" fill="#6B7280">+ Reminders and alerts</text>
+  <text x="295" y="278" text-anchor="middle" font-family="sans-serif" font-size="6.5" fill="#6B7280">+ Easy to reorganize</text>
+</svg>

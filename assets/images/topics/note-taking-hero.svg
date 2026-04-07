@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <defs>
+    <clipPath id="notebook-clip">
+      <rect x="150" y="40" width="500" height="320" rx="8"/>
+    </clipPath>
+    <pattern id="dots-nt" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#E5E7EB"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="400" rx="16" fill="#F3F4F6"/>
+
+  <!-- Subtle dot pattern -->
+  <rect width="800" height="400" fill="url(#dots-nt)" rx="16"/>
+
+  <!-- Open notebook - left page -->
+  <rect x="150" y="50" width="245" height="300" rx="4" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5"/>
+  <!-- Left page lines -->
+  <line x1="170" y1="90" x2="375" y2="90" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="170" y1="110" x2="375" y2="110" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="170" y1="130" x2="375" y2="130" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="170" y1="150" x2="375" y2="150" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="170" y1="170" x2="375" y2="170" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="170" y1="190" x2="375" y2="190" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="170" y1="210" x2="375" y2="210" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="170" y1="230" x2="375" y2="230" stroke="#E5E7EB" stroke-width="1"/>
+  <!-- Handwritten lines on left -->
+  <path d="M175 88 Q200 85 230 89 Q260 92 280 87 Q310 83 340 88" stroke="#6B7280" stroke-width="1.2" fill="none"/>
+  <path d="M175 108 Q210 105 250 110 Q290 114 330 108" stroke="#6B7280" stroke-width="1.2" fill="none"/>
+  <path d="M175 128 Q195 125 220 129 Q250 133 290 127 Q320 124 360 129" stroke="#6B7280" stroke-width="1.2" fill="none"/>
+  <path d="M175 148 Q200 145 240 149 Q270 152 310 147" stroke="#6B7280" stroke-width="1.2" fill="none"/>
+
+  <!-- Open notebook - right page -->
+  <rect x="405" y="50" width="245" height="300" rx="4" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5"/>
+  <!-- Notebook spine -->
+  <line x1="400" y1="50" x2="400" y2="350" stroke="#9CA3AF" stroke-width="2"/>
+
+  <!-- Mind map on right page -->
+  <!-- Central node -->
+  <circle cx="527" cy="180" r="30" fill="#2563EB" opacity="0.15"/>
+  <circle cx="527" cy="180" r="22" fill="#2563EB" opacity="0.3"/>
+  <circle cx="527" cy="180" r="14" fill="#2563EB"/>
+  <text x="527" y="184" text-anchor="middle" fill="white" font-size="8" font-weight="bold">IDEA</text>
+
+  <!-- Branch 1 - top right -->
+  <path d="M545 168 Q570 140 595 125" stroke="#2563EB" stroke-width="2" fill="none"/>
+  <circle cx="600" cy="120" r="16" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.5"/>
+  <rect x="590" y="116" width="20" height="2" rx="1" fill="#2563EB" opacity="0.5"/>
+  <rect x="593" y="122" width="14" height="2" rx="1" fill="#2563EB" opacity="0.5"/>
+
+  <!-- Branch 2 - right -->
+  <path d="M549 180 Q575 180 595 175" stroke="#3B82F6" stroke-width="2" fill="none"/>
+  <circle cx="605" cy="172" r="14" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1.5"/>
+  <rect x="596" y="169" width="18" height="2" rx="1" fill="#3B82F6" opacity="0.5"/>
+
+  <!-- Branch 3 - bottom right -->
+  <path d="M545 195 Q570 220 590 240" stroke="#2563EB" stroke-width="2" fill="none"/>
+  <circle cx="597" cy="248" r="16" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.5"/>
+  <rect x="588" y="244" width="18" height="2" rx="1" fill="#2563EB" opacity="0.5"/>
+  <rect x="590" y="250" width="14" height="2" rx="1" fill="#2563EB" opacity="0.5"/>
+
+  <!-- Branch 4 - top left -->
+  <path d="M510 165 Q485 130 465 110" stroke="#60A5FA" stroke-width="2" fill="none"/>
+  <circle cx="458" cy="105" r="14" fill="#DBEAFE" stroke="#60A5FA" stroke-width="1.5"/>
+  <rect x="449" y="102" width="18" height="2" rx="1" fill="#60A5FA" opacity="0.5"/>
+
+  <!-- Branch 5 - bottom left -->
+  <path d="M510 195 Q485 225 465 250" stroke="#60A5FA" stroke-width="2" fill="none"/>
+  <circle cx="458" cy="258" r="16" fill="#DBEAFE" stroke="#60A5FA" stroke-width="1.5"/>
+  <rect x="449" y="254" width="18" height="2" rx="1" fill="#60A5FA" opacity="0.5"/>
+  <rect x="451" y="260" width="14" height="2" rx="1" fill="#60A5FA" opacity="0.5"/>
+
+  <!-- Sub-branches -->
+  <path d="M614 115 Q630 105 640 100" stroke="#93C5FD" stroke-width="1.2" fill="none"/>
+  <circle cx="645" cy="97" r="8" fill="#EFF6FF" stroke="#93C5FD" stroke-width="1"/>
+  <path d="M614 128 Q630 138 640 145" stroke="#93C5FD" stroke-width="1.2" fill="none"/>
+  <circle cx="645" cy="149" r="8" fill="#EFF6FF" stroke="#93C5FD" stroke-width="1"/>
+
+  <!-- Pen -->
+  <g transform="translate(660, 280) rotate(-45)">
+    <rect x="0" y="0" width="8" height="80" rx="2" fill="#2563EB"/>
+    <rect x="0" y="0" width="8" height="15" rx="2" fill="#1D4ED8"/>
+    <polygon points="0,80 8,80 4,95" fill="#374151"/>
+    <rect x="1" y="68" width="6" height="4" rx="1" fill="#60A5FA"/>
+  </g>
+
+  <!-- Sticky note 1 - yellow -->
+  <g transform="translate(65, 60) rotate(-5)">
+    <rect width="70" height="70" rx="3" fill="#FEF3C7" stroke="#F59E0B" stroke-width="0.5"/>
+    <rect x="10" y="15" width="50" height="2" rx="1" fill="#F59E0B" opacity="0.4"/>
+    <rect x="10" y="23" width="40" height="2" rx="1" fill="#F59E0B" opacity="0.4"/>
+    <rect x="10" y="31" width="45" height="2" rx="1" fill="#F59E0B" opacity="0.4"/>
+    <rect x="10" y="39" width="30" height="2" rx="1" fill="#F59E0B" opacity="0.4"/>
+  </g>
+
+  <!-- Sticky note 2 - pink -->
+  <g transform="translate(80, 270) rotate(3)">
+    <rect width="65" height="65" rx="3" fill="#FCE7F3" stroke="#EC4899" stroke-width="0.5"/>
+    <rect x="10" y="15" width="45" height="2" rx="1" fill="#EC4899" opacity="0.4"/>
+    <rect x="10" y="23" width="35" height="2" rx="1" fill="#EC4899" opacity="0.4"/>
+    <rect x="10" y="31" width="40" height="2" rx="1" fill="#EC4899" opacity="0.4"/>
+  </g>
+
+  <!-- Sticky note 3 - green -->
+  <g transform="translate(690, 60) rotate(4)">
+    <rect width="60" height="60" rx="3" fill="#D1FAE5" stroke="#10B981" stroke-width="0.5"/>
+    <circle cx="18" cy="20" r="5" fill="none" stroke="#10B981" stroke-width="1.5"/>
+    <path d="M15 20 L17 22 L22 17" stroke="#10B981" stroke-width="1.5" fill="none"/>
+    <rect x="28" y="18" width="22" height="2" rx="1" fill="#10B981" opacity="0.4"/>
+    <circle cx="18" cy="34" r="5" fill="none" stroke="#10B981" stroke-width="1.5"/>
+    <rect x="28" y="32" width="22" height="2" rx="1" fill="#10B981" opacity="0.4"/>
+    <circle cx="18" cy="48" r="5" fill="none" stroke="#10B981" stroke-width="1.5"/>
+    <rect x="28" y="46" width="22" height="2" rx="1" fill="#10B981" opacity="0.4"/>
+  </g>
+
+  <!-- Sticky note 4 - blue -->
+  <g transform="translate(700, 290) rotate(-3)">
+    <rect width="65" height="65" rx="3" fill="#DBEAFE" stroke="#2563EB" stroke-width="0.5"/>
+    <text x="32" y="25" text-anchor="middle" fill="#2563EB" font-size="20" opacity="0.6">!</text>
+    <rect x="10" y="35" width="45" height="2" rx="1" fill="#2563EB" opacity="0.3"/>
+    <rect x="10" y="43" width="35" height="2" rx="1" fill="#2563EB" opacity="0.3"/>
+  </g>
+
+  <!-- Bookmark tabs on notebook -->
+  <rect x="630" y="48" width="25" height="12" rx="3" fill="#EF4444" opacity="0.8"/>
+  <rect x="636" y="48" width="25" height="12" rx="3" fill="#F59E0B" opacity="0.8"/>
+  <rect x="642" y="48" width="25" height="12" rx="3" fill="#2563EB" opacity="0.8"/>
+
+  <!-- Decorative elements -->
+  <circle cx="50" cy="200" r="4" fill="#2563EB" opacity="0.2"/>
+  <circle cx="35" cy="180" r="3" fill="#2563EB" opacity="0.15"/>
+  <circle cx="755" cy="200" r="5" fill="#2563EB" opacity="0.2"/>
+  <circle cx="770" cy="180" r="3" fill="#2563EB" opacity="0.15"/>
+
+  <!-- Small floating icons -->
+  <!-- Lightbulb -->
+  <g transform="translate(45, 370)">
+    <circle cx="0" cy="-8" r="8" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1"/>
+    <line x1="-3" y1="0" x2="3" y2="0" stroke="#F59E0B" stroke-width="1"/>
+    <line x1="-2" y1="3" x2="2" y2="3" stroke="#F59E0B" stroke-width="1"/>
+  </g>
+
+  <!-- Star -->
+  <polygon points="760,370 763,362 770,362 764,356 766,348 760,353 754,348 756,356 750,362 757,362" fill="#2563EB" opacity="0.25"/>
+</svg>

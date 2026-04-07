@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" fill="none">
+  <rect width="800" height="400" rx="16" fill="#FFFBEB"/>
+  <!-- Ground -->
+  <rect x="0" y="310" width="800" height="90" rx="0" fill="#F59E0B" opacity="0.1"/>
+  <ellipse cx="400" cy="310" rx="350" ry="12" fill="#F59E0B" opacity="0.15"/>
+  <!-- Coin 1 (small) with sprout -->
+  <ellipse cx="180" cy="300" rx="40" ry="12" fill="#F59E0B" opacity="0.3"/>
+  <rect x="165" y="270" width="30" height="30" rx="15" fill="#F59E0B" opacity="0.7"/>
+  <text x="180" y="290" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="white">$</text>
+  <!-- Sprout 1 (small) -->
+  <line x1="180" y1="270" x2="180" y2="230" stroke="#22C55E" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="172" cy="235" rx="10" ry="14" fill="#22C55E" opacity="0.8" transform="rotate(-20 172 235)"/>
+  <!-- Coin 2 (medium) with plant -->
+  <ellipse cx="340" cy="295" rx="45" ry="14" fill="#F59E0B" opacity="0.35"/>
+  <rect x="310" y="240" width="60" height="55" rx="6" fill="#F59E0B" opacity="0.8"/>
+  <rect x="322" y="252" width="36" height="30" rx="4" fill="#FFFBEB" opacity="0.3"/>
+  <text x="340" y="282" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="white">$</text>
+  <!-- Plant 2 (medium) -->
+  <line x1="340" y1="240" x2="340" y2="170" stroke="#22C55E" stroke-width="3.5" stroke-linecap="round"/>
+  <ellipse cx="328" cy="195" rx="12" ry="18" fill="#22C55E" opacity="0.8" transform="rotate(-25 328 195)"/>
+  <ellipse cx="352" cy="180" rx="12" ry="18" fill="#22C55E" opacity="0.7" transform="rotate(25 352 180)"/>
+  <!-- Coin 3 (large) with tree -->
+  <ellipse cx="520" cy="290" rx="55" ry="16" fill="#F59E0B" opacity="0.4"/>
+  <rect x="480" y="215" width="80" height="75" rx="8" fill="#F59E0B"/>
+  <rect x="495" y="228" width="50" height="48" rx="4" fill="#FFFBEB" opacity="0.2"/>
+  <text x="520" y="272" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="bold" fill="white">$</text>
+  <!-- Tree 3 (large) -->
+  <line x1="520" y1="215" x2="520" y2="110" stroke="#22C55E" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="520" cy="100" r="35" fill="#22C55E" opacity="0.7"/>
+  <circle cx="500" cy="120" r="22" fill="#22C55E" opacity="0.6"/>
+  <circle cx="540" cy="115" r="25" fill="#22C55E" opacity="0.65"/>
+  <ellipse cx="505" cy="155" rx="14" ry="20" fill="#22C55E" opacity="0.6" transform="rotate(-30 505 155)"/>
+  <ellipse cx="535" cy="150" rx="14" ry="20" fill="#22C55E" opacity="0.55" transform="rotate(30 535 150)"/>
+  <!-- Growth arrow -->
+  <path d="M160,320 Q350,300 560,200" stroke="#F59E0B" stroke-width="2.5" stroke-dasharray="8,5" fill="none" opacity="0.5"/>
+  <polygon points="560,200 548,210 558,212" fill="#F59E0B" opacity="0.5"/>
+  <!-- Decorative coins -->
+  <circle cx="660" cy="260" r="18" fill="#F59E0B" opacity="0.25"/>
+  <text x="660" y="266" text-anchor="middle" font-family="sans-serif" font-size="14" fill="white" opacity="0.6">$</text>
+  <circle cx="700" cy="300" r="14" fill="#F59E0B" opacity="0.2"/>
+  <circle cx="120" cy="320" r="12" fill="#F59E0B" opacity="0.2"/>
+  <!-- Title area -->
+  <text x="400" y="375" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#F59E0B" opacity="0.6">Sustainable Investment Growth</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" fill="none">
+  <rect width="800" height="400" rx="16" fill="#F0FDF4"/>
+  <circle cx="400" cy="180" r="100" fill="#059669" opacity="0.15"/>
+  <circle cx="300" cy="200" r="60" fill="#10B981" opacity="0.2"/>
+  <circle cx="500" cy="200" r="60" fill="#047857" opacity="0.2"/>
+  <circle cx="400" cy="130" r="60" fill="#059669" opacity="0.2"/>
+  <text x="300" y="210" font-family="sans-serif" font-size="22" font-weight="bold" fill="#047857" text-anchor="middle">E</text>
+  <text x="500" y="210" font-family="sans-serif" font-size="22" font-weight="bold" fill="#047857" text-anchor="middle">G</text>
+  <text x="400" y="140" font-family="sans-serif" font-size="22" font-weight="bold" fill="#047857" text-anchor="middle">S</text>
+  <text x="400" y="290" font-family="sans-serif" font-size="28" font-weight="bold" fill="#059669" text-anchor="middle">ESG Overview</text>
+  <text x="400" y="320" font-family="sans-serif" font-size="14" fill="#6B7280" text-anchor="middle">Environmental · Social · Governance</text>
+  <rect x="150" y="350" width="500" height="4" rx="2" fill="#059669" opacity="0.3"/>
+</svg>

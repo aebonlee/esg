@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="12" fill="#F5F3FF"/>
+  <!-- Ground line -->
+  <rect x="60" y="195" width="280" height="3" rx="1.5" fill="#DDD6FE"/>
+  <!-- House 1 - left -->
+  <rect x="80" y="145" width="60" height="50" rx="3" fill="#A78BFA"/>
+  <polygon points="80,148 110,110 140,148" fill="#8B5CF6"/>
+  <rect x="100" y="165" width="18" height="30" rx="2" fill="#F5F3FF"/>
+  <rect x="86" y="158" width="12" height="12" rx="1" fill="#EDE9FE"/>
+  <!-- House 2 - center (larger) -->
+  <rect x="160" y="125" width="80" height="70" rx="3" fill="#8B5CF6"/>
+  <polygon points="158,128 200,82 242,128" fill="#7C3AED"/>
+  <rect x="185" y="155" width="22" height="40" rx="2" fill="#F5F3FF"/>
+  <rect x="168" y="142" width="14" height="14" rx="1" fill="#EDE9FE"/>
+  <rect x="218" y="142" width="14" height="14" rx="1" fill="#EDE9FE"/>
+  <!-- House 3 - right -->
+  <rect x="260" y="150" width="55" height="45" rx="3" fill="#A78BFA"/>
+  <polygon points="260,153 287,118 315,153" fill="#8B5CF6"/>
+  <rect x="278" y="168" width="16" height="27" rx="2" fill="#F5F3FF"/>
+  <!-- Hearts floating above -->
+  <path d="M130 85 L135 80 Q140 75 135 70 Q130 65 130 70 Q130 65 125 70 Q120 75 125 80 Z" fill="#C4B5FD"/>
+  <path d="M270 75 L276 68 Q282 61 276 54 Q270 47 270 54 Q270 47 264 54 Q258 61 264 68 Z" fill="#8B5CF6"/>
+  <path d="M200 55 L207 47 Q214 39 207 31 Q200 23 200 31 Q200 23 193 31 Q186 39 193 47 Z" fill="#7C3AED"/>
+  <!-- Small tree -->
+  <circle cx="335" cy="165" r="14" fill="#C4B5FD"/>
+  <rect x="333" y="176" width="5" height="19" rx="1" fill="#A78BFA"/>
+  <!-- Label -->
+  <text x="200" y="260" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#8B5CF6">Community Engagement</text>
+</svg>

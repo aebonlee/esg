@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="12" fill="#ECFEFF"/>
+  <!-- Document -->
+  <rect x="120" y="40" width="170" height="220" rx="8" fill="white" stroke="#0891B2" stroke-width="2.5"/>
+  <!-- Document text lines -->
+  <rect x="145" y="65" width="120" height="7" rx="3" fill="#0891B2" opacity="0.35"/>
+  <rect x="145" y="82" width="100" height="7" rx="3" fill="#0891B2" opacity="0.25"/>
+  <rect x="145" y="99" width="115" height="7" rx="3" fill="#0891B2" opacity="0.35"/>
+  <rect x="145" y="116" width="90" height="7" rx="3" fill="#0891B2" opacity="0.25"/>
+  <rect x="145" y="133" width="105" height="7" rx="3" fill="#0891B2" opacity="0.35"/>
+  <rect x="145" y="150" width="80" height="7" rx="3" fill="#0891B2" opacity="0.25"/>
+  <rect x="145" y="167" width="110" height="7" rx="3" fill="#0891B2" opacity="0.35"/>
+  <rect x="145" y="184" width="95" height="7" rx="3" fill="#0891B2" opacity="0.25"/>
+  <rect x="145" y="201" width="70" height="7" rx="3" fill="#0891B2" opacity="0.2"/>
+  <!-- Pen body -->
+  <rect x="280" y="65" width="12" height="130" rx="3" fill="#0891B2" transform="rotate(25 286 130)"/>
+  <!-- Pen tip -->
+  <polygon points="248,225 252,240 258,225" fill="#065F6B" transform="rotate(0 253 232)"/>
+  <!-- Pen clip -->
+  <rect x="283" y="65" width="4" height="30" rx="1" fill="#065F6B" transform="rotate(25 286 80)"/>
+  <!-- Writing trail / ink mark -->
+  <path d="M248,228 Q240,220 245,212 Q250,205 243,198" stroke="#0891B2" stroke-width="1.5" fill="none" opacity="0.4"/>
+  <!-- Small decorative dots (ink splashes) -->
+  <circle cx="235" cy="215" r="2" fill="#0891B2" opacity="0.3"/>
+  <circle cx="250" cy="205" r="1.5" fill="#0891B2" opacity="0.25"/>
+  <!-- Corner fold on document -->
+  <polygon points="290,40 290,65 265,40" fill="#0891B2" opacity="0.15"/>
+  <!-- Label -->
+  <text x="200" y="285" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#0891B2" opacity="0.6">ESG Report Writing</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="12" fill="#FFF1F2"/>
+  <!-- House -->
+  <!-- Roof -->
+  <polygon points="200,55 120,125 280,125" fill="#E11D48"/>
+  <!-- House body -->
+  <rect x="140" y="125" width="120" height="85" fill="#FB7185"/>
+  <!-- Door -->
+  <rect x="182" y="160" width="36" height="50" rx="4" fill="#FFF1F2"/>
+  <circle cx="212" cy="188" r="3" fill="#E11D48"/>
+  <!-- Window left -->
+  <rect x="150" y="140" width="24" height="22" rx="3" fill="#FFF1F2"/>
+  <line x1="162" y1="140" x2="162" y2="162" stroke="#E11D48" stroke-width="1.5" opacity="0.4"/>
+  <line x1="150" y1="151" x2="174" y2="151" stroke="#E11D48" stroke-width="1.5" opacity="0.4"/>
+  <!-- Window right -->
+  <rect x="226" y="140" width="24" height="22" rx="3" fill="#FFF1F2"/>
+  <line x1="238" y1="140" x2="238" y2="162" stroke="#E11D48" stroke-width="1.5" opacity="0.4"/>
+  <line x1="226" y1="151" x2="250" y2="151" stroke="#E11D48" stroke-width="1.5" opacity="0.4"/>
+  <!-- Chimney -->
+  <rect x="240" y="65" width="18" height="40" fill="#BE123C"/>
+  <!-- Ground -->
+  <rect x="80" y="210" width="240" height="4" rx="2" fill="#E11D48" opacity="0.2"/>
+  <!-- People around house -->
+  <!-- Person left -->
+  <circle cx="95" cy="175" r="13" fill="#E11D48"/>
+  <rect x="86" y="191" width="18" height="22" rx="6" fill="#E11D48"/>
+  <!-- Person far left -->
+  <circle cx="60" cy="185" r="11" fill="#FB7185"/>
+  <rect x="52" y="199" width="16" height="18" rx="5" fill="#FB7185"/>
+  <!-- Person right -->
+  <circle cx="310" cy="175" r="13" fill="#E11D48"/>
+  <rect x="301" y="191" width="18" height="22" rx="6" fill="#E11D48"/>
+  <!-- Person far right -->
+  <circle cx="345" cy="185" r="11" fill="#FB7185"/>
+  <rect x="337" y="199" width="16" height="18" rx="5" fill="#FB7185"/>
+  <!-- Heart on house -->
+  <path d="M200 90 C200 84 191 78 185 81 C179 84 179 93 185 99 L200 111 L215 99 C221 93 221 84 215 81 C209 78 200 84 200 90Z" fill="#FFFBEB"/>
+  <!-- Title -->
+  <text x="200" y="260" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#E11D48">Community Business</text>
+</svg>

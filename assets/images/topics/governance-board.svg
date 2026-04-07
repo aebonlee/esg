@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="12" fill="#EFF6FF"/>
+  <!-- Conference table -->
+  <ellipse cx="200" cy="165" rx="120" ry="40" fill="#2563EB"/>
+  <ellipse cx="200" cy="160" rx="120" ry="40" fill="#3B82F6"/>
+  <ellipse cx="200" cy="158" rx="105" ry="32" fill="#60A5FA"/>
+  <!-- Person top -->
+  <circle cx="200" cy="105" r="14" fill="#1D4ED8"/>
+  <circle cx="200" cy="99" r="5.5" fill="#EFF6FF"/>
+  <rect x="194" y="107" width="12" height="6" rx="3" fill="#EFF6FF"/>
+  <!-- Person top-left -->
+  <circle cx="130" cy="120" r="14" fill="#2563EB"/>
+  <circle cx="130" cy="114" r="5.5" fill="#EFF6FF"/>
+  <rect x="124" y="122" width="12" height="6" rx="3" fill="#EFF6FF"/>
+  <!-- Person top-right -->
+  <circle cx="270" cy="120" r="14" fill="#2563EB"/>
+  <circle cx="270" cy="114" r="5.5" fill="#EFF6FF"/>
+  <rect x="264" y="122" width="12" height="6" rx="3" fill="#EFF6FF"/>
+  <!-- Person left -->
+  <circle cx="95" cy="158" r="14" fill="#3B82F6"/>
+  <circle cx="95" cy="152" r="5.5" fill="#EFF6FF"/>
+  <rect x="89" y="160" width="12" height="6" rx="3" fill="#EFF6FF"/>
+  <!-- Person right -->
+  <circle cx="305" cy="158" r="14" fill="#3B82F6"/>
+  <circle cx="305" cy="152" r="5.5" fill="#EFF6FF"/>
+  <rect x="299" y="160" width="12" height="6" rx="3" fill="#EFF6FF"/>
+  <!-- Person bottom-left -->
+  <circle cx="130" cy="200" r="14" fill="#2563EB"/>
+  <circle cx="130" cy="194" r="5.5" fill="#EFF6FF"/>
+  <rect x="124" y="202" width="12" height="6" rx="3" fill="#EFF6FF"/>
+  <!-- Person bottom-right -->
+  <circle cx="270" cy="200" r="14" fill="#2563EB"/>
+  <circle cx="270" cy="194" r="5.5" fill="#EFF6FF"/>
+  <rect x="264" y="202" width="12" height="6" rx="3" fill="#EFF6FF"/>
+  <!-- Document on table -->
+  <rect x="185" y="148" width="16" height="20" rx="2" fill="#EFF6FF"/>
+  <rect x="188" y="153" width="10" height="2" rx="1" fill="#93C5FD"/>
+  <rect x="188" y="157" width="8" height="2" rx="1" fill="#93C5FD"/>
+  <rect x="188" y="161" width="10" height="2" rx="1" fill="#93C5FD"/>
+  <!-- Label -->
+  <text x="200" y="262" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#2563EB">Board Structure</text>
+</svg>

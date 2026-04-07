@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="12" fill="#F0FDF4"/>
+  <!-- Title -->
+  <text x="200" y="35" font-family="sans-serif" font-size="14" font-weight="bold" fill="#374151" text-anchor="middle">ESG Reporting Frameworks</text>
+  <!-- GRI Box -->
+  <rect x="30" y="60" width="160" height="95" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="2"/>
+  <text x="110" y="95" font-family="sans-serif" font-size="20" font-weight="bold" fill="#059669" text-anchor="middle">GRI</text>
+  <text x="110" y="115" font-family="sans-serif" font-size="10" fill="#6B7280" text-anchor="middle">Global Reporting</text>
+  <text x="110" y="128" font-family="sans-serif" font-size="10" fill="#6B7280" text-anchor="middle">Initiative</text>
+  <circle cx="50" cy="80" r="10" fill="#059669" opacity="0.15"/>
+  <text x="50" y="84" font-family="sans-serif" font-size="9" font-weight="bold" fill="#059669" text-anchor="middle">1</text>
+  <!-- SASB Box -->
+  <rect x="210" y="60" width="160" height="95" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="2"/>
+  <text x="290" y="95" font-family="sans-serif" font-size="20" font-weight="bold" fill="#059669" text-anchor="middle">SASB</text>
+  <text x="290" y="115" font-family="sans-serif" font-size="10" fill="#6B7280" text-anchor="middle">Sustainability Accounting</text>
+  <text x="290" y="128" font-family="sans-serif" font-size="10" fill="#6B7280" text-anchor="middle">Standards Board</text>
+  <circle cx="230" cy="80" r="10" fill="#059669" opacity="0.15"/>
+  <text x="230" y="84" font-family="sans-serif" font-size="9" font-weight="bold" fill="#059669" text-anchor="middle">2</text>
+  <!-- TCFD Box -->
+  <rect x="30" y="175" width="160" height="95" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="2"/>
+  <text x="110" y="210" font-family="sans-serif" font-size="20" font-weight="bold" fill="#059669" text-anchor="middle">TCFD</text>
+  <text x="110" y="230" font-family="sans-serif" font-size="10" fill="#6B7280" text-anchor="middle">Task Force on Climate</text>
+  <text x="110" y="243" font-family="sans-serif" font-size="10" fill="#6B7280" text-anchor="middle">Financial Disclosures</text>
+  <circle cx="50" cy="195" r="10" fill="#059669" opacity="0.15"/>
+  <text x="50" y="199" font-family="sans-serif" font-size="9" font-weight="bold" fill="#059669" text-anchor="middle">3</text>
+  <!-- ISSB Box -->
+  <rect x="210" y="175" width="160" height="95" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="2"/>
+  <text x="290" y="210" font-family="sans-serif" font-size="20" font-weight="bold" fill="#059669" text-anchor="middle">ISSB</text>
+  <text x="290" y="230" font-family="sans-serif" font-size="10" fill="#6B7280" text-anchor="middle">International Sustainability</text>
+  <text x="290" y="243" font-family="sans-serif" font-size="10" fill="#6B7280" text-anchor="middle">Standards Board</text>
+  <circle cx="230" cy="195" r="10" fill="#059669" opacity="0.15"/>
+  <text x="230" y="199" font-family="sans-serif" font-size="9" font-weight="bold" fill="#059669" text-anchor="middle">4</text>
+</svg>
