@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" fill="none">
+  <rect width="800" height="400" rx="16" fill="#F3F4F6"/>
+
+  <!-- Large center clock -->
+  <circle cx="400" cy="195" r="110" fill="white" stroke="#0891B2" stroke-width="4"/>
+  <circle cx="400" cy="195" r="100" fill="white" stroke="#0891B2" stroke-width="2" stroke-dasharray="8 8"/>
+  <circle cx="400" cy="195" r="6" fill="#0891B2"/>
+  <!-- Hour marks -->
+  <line x1="400" y1="100" x2="400" y2="115" stroke="#0891B2" stroke-width="3" stroke-linecap="round"/>
+  <line x1="400" y1="275" x2="400" y2="290" stroke="#0891B2" stroke-width="3" stroke-linecap="round"/>
+  <line x1="305" y1="195" x2="320" y2="195" stroke="#0891B2" stroke-width="3" stroke-linecap="round"/>
+  <line x1="480" y1="195" x2="495" y2="195" stroke="#0891B2" stroke-width="3" stroke-linecap="round"/>
+  <!-- Clock hands -->
+  <line x1="400" y1="195" x2="400" y2="130" stroke="#065F73" stroke-width="4" stroke-linecap="round"/>
+  <line x1="400" y1="195" x2="455" y2="170" stroke="#0891B2" stroke-width="3" stroke-linecap="round"/>
+  <line x1="400" y1="195" x2="430" y2="220" stroke="#F59E0B" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Calendar pages (left side) -->
+  <rect x="80" y="80" width="120" height="140" rx="8" fill="white" stroke="#0891B2" stroke-width="2"/>
+  <rect x="80" y="80" width="120" height="30" rx="8" fill="#0891B2"/>
+  <text x="140" y="100" text-anchor="middle" fill="white" font-size="13" font-family="system-ui" font-weight="600">APRIL</text>
+  <!-- Calendar grid -->
+  <g fill="#94A3B8" font-size="10" font-family="system-ui" text-anchor="middle">
+    <text x="100" y="130">M</text><text x="120" y="130">T</text><text x="140" y="130">W</text><text x="160" y="130">T</text><text x="180" y="130">F</text>
+    <text x="100" y="148" fill="#334155">1</text><text x="120" y="148" fill="#334155">2</text><text x="140" y="148" fill="#334155">3</text><text x="160" y="148" fill="#334155">4</text><text x="180" y="148" fill="#334155">5</text>
+    <text x="100" y="166" fill="#334155">7</text><text x="120" y="166" fill="#334155">8</text><text x="140" y="166" fill="#334155">9</text><text x="160" y="166" fill="#334155">10</text><text x="180" y="166" fill="#334155">11</text>
+  </g>
+  <!-- Highlight a date -->
+  <circle cx="140" cy="162" r="10" fill="#0891B2" opacity="0.15"/>
+  <rect x="137" y="159" width="6" height="6" rx="1" fill="#0891B2" opacity="0"/>
+
+  <!-- Todo list (right side) -->
+  <rect x="600" y="80" width="140" height="160" rx="8" fill="white" stroke="#0891B2" stroke-width="2"/>
+  <text x="670" y="105" text-anchor="middle" fill="#0891B2" font-size="12" font-family="system-ui" font-weight="700">TO-DO</text>
+  <line x1="612" y1="112" x2="728" y2="112" stroke="#E2E8F0" stroke-width="1"/>
+  <!-- Item 1 checked -->
+  <rect x="618" y="122" width="14" height="14" rx="3" fill="#0891B2"/>
+  <polyline points="622,129 625,133 632,124" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="640" y="124" width="80" height="8" rx="4" fill="#CBD5E1"/>
+  <!-- Item 2 checked -->
+  <rect x="618" y="146" width="14" height="14" rx="3" fill="#0891B2"/>
+  <polyline points="622,153 625,157 632,148" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="640" y="148" width="65" height="8" rx="4" fill="#CBD5E1"/>
+  <!-- Item 3 unchecked -->
+  <rect x="618" y="170" width="14" height="14" rx="3" fill="white" stroke="#0891B2" stroke-width="1.5"/>
+  <rect x="640" y="172" width="72" height="8" rx="4" fill="#E2E8F0"/>
+  <!-- Item 4 unchecked -->
+  <rect x="618" y="194" width="14" height="14" rx="3" fill="white" stroke="#0891B2" stroke-width="1.5"/>
+  <rect x="640" y="196" width="55" height="8" rx="4" fill="#E2E8F0"/>
+
+  <!-- Hourglass (left bottom) -->
+  <g transform="translate(160,270)">
+    <rect x="-20" y="-5" width="40" height="4" rx="2" fill="#0891B2"/>
+    <rect x="-20" y="51" width="40" height="4" rx="2" fill="#0891B2"/>
+    <path d="M-15,0 L-15,15 Q0,30 15,15 L15,0 Z" fill="#B2E6F0" stroke="#0891B2" stroke-width="1.5"/>
+    <path d="M-15,55 L-15,40 Q0,25 15,40 L15,55 Z" fill="#0891B2" opacity="0.3" stroke="#0891B2" stroke-width="1.5"/>
+    <!-- Sand particles -->
+    <circle cx="0" cy="25" r="1.5" fill="#0891B2"/>
+    <circle cx="0" cy="30" r="1.5" fill="#0891B2"/>
+    <circle cx="-3" cy="48" r="1.5" fill="#0891B2" opacity="0.6"/>
+    <circle cx="3" cy="46" r="1.5" fill="#0891B2" opacity="0.6"/>
+    <circle cx="0" cy="44" r="1.5" fill="#0891B2" opacity="0.6"/>
+  </g>
+
+  <!-- Time blocks (right bottom) -->
+  <g transform="translate(580,270)">
+    <rect x="0" y="0" width="45" height="25" rx="4" fill="#0891B2"/>
+    <rect x="50" y="0" width="45" height="25" rx="4" fill="#0891B2" opacity="0.7"/>
+    <rect x="100" y="0" width="45" height="25" rx="4" fill="#0891B2" opacity="0.4"/>
+    <rect x="0" y="30" width="45" height="25" rx="4" fill="#0891B2" opacity="0.5"/>
+    <rect x="50" y="30" width="45" height="25" rx="4" fill="#0891B2" opacity="0.3"/>
+    <rect x="100" y="30" width="45" height="25" rx="4" fill="#0891B2" opacity="0.15"/>
+    <text x="22" y="16" text-anchor="middle" fill="white" font-size="8" font-family="system-ui">9am</text>
+    <text x="72" y="16" text-anchor="middle" fill="white" font-size="8" font-family="system-ui">11am</text>
+    <text x="122" y="16" text-anchor="middle" fill="white" font-size="8" font-family="system-ui">1pm</text>
+    <text x="22" y="46" text-anchor="middle" fill="white" font-size="8" font-family="system-ui">3pm</text>
+    <text x="72" y="46" text-anchor="middle" fill="white" font-size="8" font-family="system-ui">5pm</text>
+    <text x="122" y="46" text-anchor="middle" fill="white" font-size="8" font-family="system-ui">7pm</text>
+  </g>
+
+  <!-- Person in center-bottom managing tasks -->
+  <g transform="translate(400,340)">
+    <!-- Head -->
+    <circle cx="0" cy="-30" r="16" fill="#0891B2"/>
+    <!-- Body -->
+    <rect x="-14" y="-14" width="28" height="35" rx="8" fill="#0891B2"/>
+    <!-- Arms pointing outward -->
+    <line x1="-14" y1="-5" x2="-40" y2="-20" stroke="#0891B2" stroke-width="5" stroke-linecap="round"/>
+    <line x1="14" y1="-5" x2="40" y2="-20" stroke="#0891B2" stroke-width="5" stroke-linecap="round"/>
+    <!-- Smile on face -->
+    <path d="M-6,-26 Q0,-20 6,-26" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <!-- Eyes -->
+    <circle cx="-5" cy="-33" r="2" fill="white"/>
+    <circle cx="5" cy="-33" r="2" fill="white"/>
+  </g>
+
+  <!-- Decorative arrows connecting elements -->
+  <path d="M210,150 Q300,120 300,195" stroke="#0891B2" stroke-width="1.5" fill="none" stroke-dasharray="4 4" opacity="0.4"/>
+  <path d="M500,195 Q560,120 595,130" stroke="#0891B2" stroke-width="1.5" fill="none" stroke-dasharray="4 4" opacity="0.4"/>
+
+  <!-- Small decorative dots -->
+  <circle cx="260" cy="320" r="3" fill="#0891B2" opacity="0.2"/>
+  <circle cx="280" cy="340" r="4" fill="#0891B2" opacity="0.15"/>
+  <circle cx="520" cy="330" r="3" fill="#0891B2" opacity="0.2"/>
+  <circle cx="540" cy="310" r="4" fill="#0891B2" opacity="0.15"/>
+</svg>

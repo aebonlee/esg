@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- Background -->
+  <rect width="400" height="300" rx="12" fill="#F3F4F6"/>
+
+  <!-- Subtle pattern -->
+  <defs>
+    <pattern id="mp-pat" x="0" y="0" width="25" height="25" patternUnits="userSpaceOnUse">
+      <circle cx="12.5" cy="12.5" r="1" fill="#8B5CF6" opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="300" fill="url(#mp-pat)"/>
+
+  <!-- House outline (cross-section) -->
+  <!-- Roof -->
+  <polygon points="200,25 60,100 340,100" fill="#DDD6FE" stroke="#8B5CF6" stroke-width="2.5"/>
+  <!-- House body -->
+  <rect x="75" y="100" width="250" height="160" fill="#EDE9FE" stroke="#8B5CF6" stroke-width="2.5"/>
+
+  <!-- Chimney -->
+  <rect x="270" y="40" width="25" height="60" fill="#C4B5FD" stroke="#8B5CF6" stroke-width="2"/>
+
+  <!-- Floor divider (2 floors) -->
+  <line x1="75" y1="180" x2="325" y2="180" stroke="#8B5CF6" stroke-width="2"/>
+
+  <!-- Wall dividers - top floor -->
+  <line x1="200" y1="100" x2="200" y2="180" stroke="#8B5CF6" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- Wall dividers - bottom floor -->
+  <line x1="200" y1="180" x2="200" y2="260" stroke="#8B5CF6" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- Front Door (bottom center) -->
+  <rect x="175" y="210" width="50" height="50" rx="4" fill="#C4B5FD" stroke="#7C3AED" stroke-width="2"/>
+  <circle cx="218" cy="238" r="3" fill="#7C3AED"/>
+  <!-- Key at the door -->
+  <g transform="translate(155, 225)">
+    <circle cx="8" cy="8" r="6" fill="#FCD34D" stroke="#F59E0B" stroke-width="1.5"/>
+    <rect x="12" y="6" width="14" height="4" rx="1" fill="#F59E0B"/>
+    <rect x="22" y="4" width="3" height="8" rx="1" fill="#F59E0B"/>
+    <rect x="18" y="4" width="2" height="6" rx="1" fill="#F59E0B"/>
+  </g>
+
+  <!-- Room 1: Top-left - Bedroom with bookshelf -->
+  <!-- Bookshelf -->
+  <rect x="85" y="115" width="45" height="55" rx="2" fill="white" stroke="#A78BFA" stroke-width="1.5"/>
+  <line x1="85" y1="135" x2="130" y2="135" stroke="#A78BFA" stroke-width="1"/>
+  <line x1="85" y1="155" x2="130" y2="155" stroke="#A78BFA" stroke-width="1"/>
+  <!-- Books on shelf -->
+  <rect x="89" y="118" width="6" height="16" rx="1" fill="#8B5CF6"/>
+  <rect x="97" y="120" width="6" height="14" rx="1" fill="#A78BFA"/>
+  <rect x="105" y="117" width="7" height="17" rx="1" fill="#7C3AED"/>
+  <rect x="114" y="119" width="6" height="15" rx="1" fill="#C4B5FD"/>
+  <rect x="89" y="138" width="8" height="16" rx="1" fill="#DDD6FE"/>
+  <rect x="99" y="140" width="6" height="14" rx="1" fill="#8B5CF6"/>
+  <rect x="107" y="138" width="7" height="16" rx="1" fill="#A78BFA"/>
+  <!-- Book icon label -->
+  <text x="108" y="175" text-anchor="middle" fill="#7C3AED" font-size="7" font-family="sans-serif" font-weight="600">BOOKS</text>
+  <!-- Glow effect -->
+  <circle cx="108" cy="145" r="25" fill="#8B5CF6" opacity="0.06"/>
+
+  <!-- Room 2: Top-right - Study room with formula -->
+  <!-- Whiteboard with numbers -->
+  <rect x="220" y="110" width="80" height="50" rx="3" fill="white" stroke="#A78BFA" stroke-width="1.5"/>
+  <text x="260" y="130" text-anchor="middle" fill="#7C3AED" font-size="10" font-family="serif" font-style="italic">a² + b² = c²</text>
+  <text x="260" y="148" text-anchor="middle" fill="#A78BFA" font-size="9" font-family="serif">3.14159</text>
+  <!-- Numbers label -->
+  <text x="260" y="175" text-anchor="middle" fill="#7C3AED" font-size="7" font-family="sans-serif" font-weight="600">FORMULAS</text>
+  <!-- Glow effect -->
+  <circle cx="260" cy="140" r="25" fill="#8B5CF6" opacity="0.06"/>
+
+  <!-- Room 3: Bottom-left - Kitchen with table -->
+  <!-- Table -->
+  <rect x="85" y="200" width="60" height="6" rx="2" fill="#A78BFA"/>
+  <rect x="90" y="206" width="4" height="20" rx="1" fill="#8B5CF6"/>
+  <rect x="136" y="206" width="4" height="20" rx="1" fill="#8B5CF6"/>
+  <!-- Items on table (numbers/dice) -->
+  <g transform="translate(92, 188)">
+    <rect x="0" y="0" width="12" height="12" rx="2" fill="white" stroke="#7C3AED" stroke-width="1"/>
+    <circle cx="6" cy="6" r="1.5" fill="#7C3AED"/>
+  </g>
+  <g transform="translate(108, 188)">
+    <rect x="0" y="0" width="12" height="12" rx="2" fill="white" stroke="#7C3AED" stroke-width="1"/>
+    <circle cx="3" cy="3" r="1.5" fill="#7C3AED"/>
+    <circle cx="9" cy="9" r="1.5" fill="#7C3AED"/>
+  </g>
+  <g transform="translate(124, 188)">
+    <rect x="0" y="0" width="12" height="12" rx="2" fill="white" stroke="#7C3AED" stroke-width="1"/>
+    <circle cx="3" cy="3" r="1.5" fill="#7C3AED"/>
+    <circle cx="6" cy="6" r="1.5" fill="#7C3AED"/>
+    <circle cx="9" cy="9" r="1.5" fill="#7C3AED"/>
+  </g>
+  <!-- Numbers label -->
+  <text x="115" y="248" text-anchor="middle" fill="#7C3AED" font-size="7" font-family="sans-serif" font-weight="600">NUMBERS</text>
+  <!-- Glow -->
+  <circle cx="115" cy="210" r="25" fill="#8B5CF6" opacity="0.06"/>
+
+  <!-- Room 4: Bottom-right - Living room with globe -->
+  <!-- Globe -->
+  <circle cx="290" cy="210" r="18" fill="#EDE9FE" stroke="#8B5CF6" stroke-width="1.5"/>
+  <ellipse cx="290" cy="210" rx="18" ry="7" fill="none" stroke="#A78BFA" stroke-width="1"/>
+  <ellipse cx="290" cy="210" rx="7" ry="18" fill="none" stroke="#A78BFA" stroke-width="1"/>
+  <line x1="272" y1="210" x2="308" y2="210" stroke="#A78BFA" stroke-width="0.8"/>
+  <!-- Globe stand -->
+  <line x1="290" y1="228" x2="290" y2="240" stroke="#8B5CF6" stroke-width="2"/>
+  <ellipse cx="290" cy="242" rx="12" ry="3" fill="none" stroke="#8B5CF6" stroke-width="1.5"/>
+  <!-- Places label -->
+  <text x="290" y="255" text-anchor="middle" fill="#7C3AED" font-size="7" font-family="sans-serif" font-weight="600">PLACES</text>
+  <!-- Glow -->
+  <circle cx="290" cy="215" r="25" fill="#8B5CF6" opacity="0.06"/>
+
+  <!-- Dotted path through the house (mental walk) -->
+  <path d="M200 260 L200 235 L115 235 L115 145 L260 145 L260 210 L290 210"
+        stroke="#7C3AED" stroke-width="2" stroke-dasharray="5 4" fill="none" opacity="0.4"/>
+
+  <!-- Walking figure dots along path -->
+  <circle cx="200" cy="255" r="3" fill="#7C3AED" opacity="0.6"/>
+  <circle cx="150" cy="235" r="2.5" fill="#7C3AED" opacity="0.5"/>
+  <circle cx="115" cy="190" r="2.5" fill="#7C3AED" opacity="0.4"/>
+  <circle cx="115" cy="145" r="2.5" fill="#7C3AED" opacity="0.35"/>
+  <circle cx="190" cy="145" r="2.5" fill="#7C3AED" opacity="0.3"/>
+
+  <!-- Title -->
+  <text x="200" y="282" text-anchor="middle" fill="#8B5CF6" font-size="11" font-family="sans-serif" font-weight="600" opacity="0.7">Memory Palace (Method of Loci)</text>
+</svg>

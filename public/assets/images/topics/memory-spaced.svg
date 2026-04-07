@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- Background -->
+  <rect width="400" height="300" rx="12" fill="#F3F4F6"/>
+
+  <!-- Subtle pattern -->
+  <rect width="400" height="300" fill="url(#ms-grid)"/>
+
+  <!-- Axis -->
+  <line x1="50" y1="40" x2="50" y2="235" stroke="#6B7280" stroke-width="1.5"/>
+  <line x1="50" y1="235" x2="370" y2="235" stroke="#6B7280" stroke-width="1.5"/>
+
+  <!-- Y-axis label -->
+  <text x="22" y="140" text-anchor="middle" fill="#6B7280" font-size="9" font-family="sans-serif" transform="rotate(-90 22 140)">Memory Retention %</text>
+
+  <!-- X-axis label -->
+  <text x="210" y="258" text-anchor="middle" fill="#6B7280" font-size="9" font-family="sans-serif">Time</text>
+
+  <!-- Y-axis marks -->
+  <text x="45" y="58" text-anchor="end" fill="#9CA3AF" font-size="8" font-family="sans-serif">100%</text>
+  <text x="45" y="105" text-anchor="end" fill="#9CA3AF" font-size="8" font-family="sans-serif">75%</text>
+  <text x="45" y="150" text-anchor="end" fill="#9CA3AF" font-size="8" font-family="sans-serif">50%</text>
+  <text x="45" y="195" text-anchor="end" fill="#9CA3AF" font-size="8" font-family="sans-serif">25%</text>
+  <line x1="48" y1="55" x2="52" y2="55" stroke="#9CA3AF" stroke-width="1"/>
+  <line x1="48" y1="100" x2="52" y2="100" stroke="#9CA3AF" stroke-width="1"/>
+  <line x1="48" y1="145" x2="52" y2="145" stroke="#9CA3AF" stroke-width="1"/>
+  <line x1="48" y1="190" x2="52" y2="190" stroke="#9CA3AF" stroke-width="1"/>
+
+  <!-- Grid lines -->
+  <line x1="50" y1="55" x2="370" y2="55" stroke="#E5E7EB" stroke-width="0.5"/>
+  <line x1="50" y1="100" x2="370" y2="100" stroke="#E5E7EB" stroke-width="0.5"/>
+  <line x1="50" y1="145" x2="370" y2="145" stroke="#E5E7EB" stroke-width="0.5"/>
+  <line x1="50" y1="190" x2="370" y2="190" stroke="#E5E7EB" stroke-width="0.5"/>
+
+  <!-- Forgetting curve WITHOUT review (dashed, gray) -->
+  <path d="M55 55 Q80 100 100 155 Q130 195 180 210 Q250 220 370 225"
+        stroke="#D1D5DB" stroke-width="2" stroke-dasharray="6 3" fill="none"/>
+
+  <!-- Forgetting curve WITH reviews (solid purple) -->
+  <!-- Initial learning to 1d review -->
+  <path d="M55 55 Q70 85 85 110" stroke="#8B5CF6" stroke-width="2.5" fill="none"/>
+  <!-- 1d review bump back up -->
+  <path d="M85 110 L85 65" stroke="#8B5CF6" stroke-width="2.5" fill="none"/>
+  <!-- 1d to 3d decay -->
+  <path d="M85 65 Q105 85 120 105" stroke="#8B5CF6" stroke-width="2.5" fill="none"/>
+  <!-- 3d review bump -->
+  <path d="M120 105 L120 60" stroke="#8B5CF6" stroke-width="2.5" fill="none"/>
+  <!-- 3d to 7d decay -->
+  <path d="M120 60 Q155 75 175 95" stroke="#8B5CF6" stroke-width="2.5" fill="none"/>
+  <!-- 7d review bump -->
+  <path d="M175 95 L175 58" stroke="#8B5CF6" stroke-width="2.5" fill="none"/>
+  <!-- 7d to 14d decay -->
+  <path d="M175 58 Q225 68 245 82" stroke="#8B5CF6" stroke-width="2.5" fill="none"/>
+  <!-- 14d review bump -->
+  <path d="M245 82 L245 56" stroke="#8B5CF6" stroke-width="2.5" fill="none"/>
+  <!-- 14d to 30d decay -->
+  <path d="M245 56 Q310 62 340 70" stroke="#8B5CF6" stroke-width="2.5" fill="none"/>
+  <!-- 30d review bump -->
+  <path d="M340 70 L340 55" stroke="#8B5CF6" stroke-width="2.5" fill="none"/>
+  <!-- Final retention -->
+  <path d="M340 55 Q355 57 370 58" stroke="#8B5CF6" stroke-width="2.5" fill="none"/>
+
+  <!-- Review point markers -->
+  <circle cx="85" cy="110" r="4" fill="#8B5CF6"/>
+  <circle cx="85" cy="65" r="4" fill="#7C3AED"/>
+
+  <circle cx="120" cy="105" r="4" fill="#8B5CF6"/>
+  <circle cx="120" cy="60" r="4" fill="#7C3AED"/>
+
+  <circle cx="175" cy="95" r="4" fill="#8B5CF6"/>
+  <circle cx="175" cy="58" r="4" fill="#7C3AED"/>
+
+  <circle cx="245" cy="82" r="4" fill="#8B5CF6"/>
+  <circle cx="245" cy="56" r="4" fill="#7C3AED"/>
+
+  <circle cx="340" cy="70" r="4" fill="#8B5CF6"/>
+  <circle cx="340" cy="55" r="4" fill="#7C3AED"/>
+
+  <!-- Time interval labels -->
+  <text x="85" y="248" text-anchor="middle" fill="#8B5CF6" font-size="8" font-family="sans-serif" font-weight="600">1d</text>
+  <text x="120" y="248" text-anchor="middle" fill="#8B5CF6" font-size="8" font-family="sans-serif" font-weight="600">3d</text>
+  <text x="175" y="248" text-anchor="middle" fill="#8B5CF6" font-size="8" font-family="sans-serif" font-weight="600">7d</text>
+  <text x="245" y="248" text-anchor="middle" fill="#8B5CF6" font-size="8" font-family="sans-serif" font-weight="600">14d</text>
+  <text x="340" y="248" text-anchor="middle" fill="#8B5CF6" font-size="8" font-family="sans-serif" font-weight="600">30d</text>
+
+  <!-- Tick marks on x-axis -->
+  <line x1="85" y1="233" x2="85" y2="237" stroke="#8B5CF6" stroke-width="1.5"/>
+  <line x1="120" y1="233" x2="120" y2="237" stroke="#8B5CF6" stroke-width="1.5"/>
+  <line x1="175" y1="233" x2="175" y2="237" stroke="#8B5CF6" stroke-width="1.5"/>
+  <line x1="245" y1="233" x2="245" y2="237" stroke="#8B5CF6" stroke-width="1.5"/>
+  <line x1="340" y1="233" x2="340" y2="237" stroke="#8B5CF6" stroke-width="1.5"/>
+
+  <!-- Review arrows -->
+  <defs>
+    <pattern id="ms-grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="40" height="40" fill="none" stroke="#8B5CF6" stroke-width="0.2" opacity="0.08"/>
+    </pattern>
+    <marker id="ms-up" markerWidth="6" markerHeight="6" refX="3" refY="6" orient="auto">
+      <polygon points="0,6 3,0 6,6" fill="#7C3AED"/>
+    </marker>
+  </defs>
+
+  <!-- Legend -->
+  <g transform="translate(220, 15)">
+    <line x1="0" y1="8" x2="20" y2="8" stroke="#8B5CF6" stroke-width="2.5"/>
+    <text x="25" y="12" fill="#6B7280" font-size="8" font-family="sans-serif">With review</text>
+
+    <line x1="0" y1="24" x2="20" y2="24" stroke="#D1D5DB" stroke-width="2" stroke-dasharray="6 3"/>
+    <text x="25" y="28" fill="#6B7280" font-size="8" font-family="sans-serif">Without review</text>
+  </g>
+
+  <!-- Title -->
+  <text x="200" y="285" text-anchor="middle" fill="#8B5CF6" font-size="11" font-family="sans-serif" font-weight="600" opacity="0.7">Ebbinghaus Forgetting Curve &amp; Spaced Repetition</text>
+</svg>

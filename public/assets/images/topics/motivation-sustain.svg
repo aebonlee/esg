@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="12" fill="#F3F4F6"/>
+
+  <!-- Title -->
+  <text x="200" y="26" text-anchor="middle" fill="#334155" font-size="14" font-family="system-ui" font-weight="700">The 1% Compound Growth Rule</text>
+
+  <!-- Formula highlight -->
+  <rect x="120" y="34" width="160" height="22" rx="6" fill="#F59E0B" opacity="0.15"/>
+  <text x="200" y="49" text-anchor="middle" fill="#F59E0B" font-size="12" font-family="system-ui" font-weight="800">1.01^365 = 37.78</text>
+
+  <!-- Y-Axis -->
+  <line x1="55" y1="70" x2="55" y2="255" stroke="#CBD5E1" stroke-width="1.5"/>
+  <polygon points="52,70 55,60 58,70" fill="#CBD5E1"/>
+  <text x="50" y="68" text-anchor="end" fill="#64748B" font-size="8" font-family="system-ui">Growth</text>
+
+  <!-- X-Axis -->
+  <line x1="55" y1="255" x2="370" y2="255" stroke="#CBD5E1" stroke-width="1.5"/>
+  <polygon points="370,252 380,255 370,258" fill="#CBD5E1"/>
+
+  <!-- X-Axis labels -->
+  <text x="55" y="270" text-anchor="middle" fill="#64748B" font-size="8" font-family="system-ui">Day 0</text>
+  <text x="134" y="270" text-anchor="middle" fill="#64748B" font-size="8" font-family="system-ui">~90</text>
+  <text x="213" y="270" text-anchor="middle" fill="#64748B" font-size="8" font-family="system-ui">~180</text>
+  <text x="291" y="270" text-anchor="middle" fill="#64748B" font-size="8" font-family="system-ui">~270</text>
+  <text x="360" y="270" text-anchor="middle" fill="#64748B" font-size="8" font-family="system-ui">365</text>
+
+  <!-- Y-Axis labels -->
+  <text x="50" y="258" text-anchor="end" fill="#64748B" font-size="8" font-family="system-ui">1x</text>
+  <text x="50" y="208" text-anchor="end" fill="#64748B" font-size="8" font-family="system-ui">10x</text>
+  <text x="50" y="158" text-anchor="end" fill="#64748B" font-size="8" font-family="system-ui">20x</text>
+  <text x="50" y="108" text-anchor="end" fill="#64748B" font-size="8" font-family="system-ui">30x</text>
+  <text x="50" y="78" text-anchor="end" fill="#64748B" font-size="8" font-family="system-ui">37x</text>
+
+  <!-- Grid lines (light) -->
+  <line x1="55" y1="205" x2="370" y2="205" stroke="#E2E8F0" stroke-width="0.5"/>
+  <line x1="55" y1="155" x2="370" y2="155" stroke="#E2E8F0" stroke-width="0.5"/>
+  <line x1="55" y1="105" x2="370" y2="105" stroke="#E2E8F0" stroke-width="0.5"/>
+
+  <!-- Linear growth line (gray, straight) -->
+  <line x1="55" y1="255" x2="360" y2="208" stroke="#94A3B8" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="362" y="205" fill="#94A3B8" font-size="8" font-family="system-ui" font-weight="600">Linear</text>
+
+  <!-- Compound 1% daily growth curve (exponential, amber/gold) -->
+  <path d="M55,255 Q100,253 134,250 Q170,246 200,240 Q230,230 255,215 Q280,195 300,165 Q320,125 340,95 Q350,82 360,75" stroke="#F59E0B" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Small daily increment arrows along the curve -->
+  <g opacity="0.5">
+    <line x1="100" y1="253" x2="100" y2="248" stroke="#F59E0B" stroke-width="1"/>
+    <polygon points="98,248 100,244 102,248" fill="#F59E0B"/>
+    <line x1="150" y1="248" x2="150" y2="242" stroke="#F59E0B" stroke-width="1"/>
+    <polygon points="148,242 150,238 152,242" fill="#F59E0B"/>
+    <line x1="200" y1="240" x2="200" y2="232" stroke="#F59E0B" stroke-width="1"/>
+    <polygon points="198,232 200,228 202,232" fill="#F59E0B"/>
+    <line x1="250" y1="218" x2="250" y2="208" stroke="#F59E0B" stroke-width="1"/>
+    <polygon points="248,208 250,204 252,208" fill="#F59E0B"/>
+    <line x1="290" y1="175" x2="290" y2="162" stroke="#F59E0B" stroke-width="1"/>
+    <polygon points="288,162 290,158 292,162" fill="#F59E0B"/>
+    <line x1="320" y1="128" x2="320" y2="112" stroke="#F59E0B" stroke-width="1"/>
+    <polygon points="318,112 320,108 322,112" fill="#F59E0B"/>
+  </g>
+
+  <!-- 37x label at end of curve -->
+  <circle cx="360" cy="75" r="14" fill="#F59E0B" opacity="0.2"/>
+  <text x="360" y="79" text-anchor="middle" fill="#F59E0B" font-size="11" font-family="system-ui" font-weight="800">37x</text>
+
+  <!-- Compound label -->
+  <text x="345" y="100" text-anchor="end" fill="#F59E0B" font-size="8" font-family="system-ui" font-weight="700">1% daily</text>
+  <text x="345" y="110" text-anchor="end" fill="#F59E0B" font-size="8" font-family="system-ui" font-weight="700">compound</text>
+
+  <!-- Calendar at bottom -->
+  <rect x="70" y="278" width="260" height="16" rx="4" fill="white" stroke="#CBD5E1" stroke-width="0.8"/>
+  <!-- Calendar cells representing 365 days -->
+  <g opacity="0.6">
+    <rect x="75" y="281" width="20" height="10" rx="2" fill="#F59E0B" opacity="0.2"/>
+    <rect x="97" y="281" width="20" height="10" rx="2" fill="#F59E0B" opacity="0.3"/>
+    <rect x="119" y="281" width="20" height="10" rx="2" fill="#F59E0B" opacity="0.35"/>
+    <rect x="141" y="281" width="20" height="10" rx="2" fill="#F59E0B" opacity="0.4"/>
+    <rect x="163" y="281" width="20" height="10" rx="2" fill="#F59E0B" opacity="0.45"/>
+    <rect x="185" y="281" width="20" height="10" rx="2" fill="#F59E0B" opacity="0.5"/>
+    <rect x="207" y="281" width="20" height="10" rx="2" fill="#F59E0B" opacity="0.55"/>
+    <rect x="229" y="281" width="20" height="10" rx="2" fill="#F59E0B" opacity="0.6"/>
+    <rect x="251" y="281" width="20" height="10" rx="2" fill="#F59E0B" opacity="0.7"/>
+    <rect x="273" y="281" width="20" height="10" rx="2" fill="#F59E0B" opacity="0.8"/>
+    <rect x="295" y="281" width="20" height="10" rx="2" fill="#F59E0B" opacity="0.9"/>
+    <rect x="317" y="281" width="8" height="10" rx="2" fill="#F59E0B" opacity="1"/>
+  </g>
+  <text x="200" y="289" text-anchor="middle" fill="white" font-size="7" font-family="system-ui" font-weight="600">365 days of consistent 1% improvement</text>
+</svg>

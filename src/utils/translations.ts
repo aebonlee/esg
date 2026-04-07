@@ -1,0 +1,106 @@
+const translations: Record<string, Record<string, any>> = {
+  ko: {
+    nav: {
+      about: '소개',
+      community: '커뮤니티',
+    },
+    hero: {
+      badge: 'ESG & CSR 종합 가이드 2026',
+      title: 'ESG 경영의\n',
+      titleHighlight: '모든 것을 마스터하세요',
+      description: 'ESG 개론, 환경·사회·지배구조 전략, CSR 경영, 사회적 경제, 보고서 작성, 지속가능 투자까지 — ESG의 A to Z를 체계적으로 배워보세요.',
+      cta: '학습 시작하기',
+      ctaSecondary: '더 알아보기',
+    },
+    features: {
+      title: '왜 DreamIT ESG인가?',
+      subtitle: 'ESG, CSR, 사회적 경제를 한 곳에서 체계적으로 정리했습니다.',
+      habits: { title: 'ESG 전략', desc: '환경(E), 사회(S), 지배구조(G)의 핵심 전략을 체계적으로 학습합니다.' },
+      memory: { title: 'CSR & CSV', desc: 'CSR 경영과 공유가치창출(CSV) 전략을 실무 중심으로 학습합니다.' },
+      strategy: { title: 'ESG 보고', desc: 'GRI, SASB, TCFD 등 글로벌 보고 표준과 실무 작성법을 배웁니다.' },
+      balance: { title: '지속가능 투자', desc: '책임투자 원칙과 ESG 포트폴리오 구축 전략을 학습합니다.' },
+    },
+    home: {
+      pathsTitle: '학습 경로',
+      pathsSubtitle: '목표에 맞는 학습 경로를 선택하고 체계적으로 학습하세요.',
+      workflowTitle: '학습 플로우',
+      workflowSubtitle: '4단계로 ESG 경영을 마스터하세요.',
+      step1: 'ESG 기초 이해',
+      step1desc: 'ESG의 개념, 역사, 프레임워크를 이해하고 기초를 다집니다.',
+      step2: 'E·S·G 전략 학습',
+      step2desc: '환경, 사회, 지배구조 각 영역의 핵심 전략을 마스터합니다.',
+      step3: 'CSR과 사회적 경제',
+      step3desc: 'CSR 경영, CSV, 사회적 기업, 협동조합 등 실전에 적용합니다.',
+      step4: '보고서와 투자',
+      step4desc: 'ESG 보고서 작성과 지속가능 투자 전략으로 실무 역량을 완성합니다.',
+    },
+    stats: {
+      guides: '학습 가이드',
+      topics: '학습 주제',
+      categories: '학습 카테고리',
+    },
+    cta: {
+      title: '지금 바로 ESG 학습을 시작하세요',
+      description: '체계적인 ESG 가이드로 지속가능 경영의 핵심 역량을 키워보세요.',
+      button: '학습 시작하기',
+    },
+    footer: {
+      description: 'ESG, CSR, 사회적 경제를 체계적으로 학습하는 종합 가이드입니다.',
+      descriptionDetail: '환경·사회·지배구조 전략, CSR 경영, ESG 보고서, 지속가능 투자 등 실무 중심의 학습 자료를 제공합니다.',
+      quickLinks: '빠른 링크',
+    },
+  },
+  en: {
+    nav: {
+      about: 'About',
+      community: 'Community',
+    },
+    hero: {
+      badge: 'ESG & CSR Comprehensive Guide 2026',
+      title: 'Master Everything About\n',
+      titleHighlight: 'ESG Management',
+      description: 'ESG overview, E·S·G strategies, CSR management, social economy, reporting, and sustainable investment — learn the A to Z of ESG systematically.',
+      cta: 'Start Learning',
+      ctaSecondary: 'Learn More',
+    },
+    features: {
+      title: 'Why DreamIT ESG?',
+      subtitle: 'We\'ve systematically organized ESG, CSR, and social economy in one place.',
+      habits: { title: 'ESG Strategy', desc: 'Learn core strategies for Environmental (E), Social (S), and Governance (G) systematically.' },
+      memory: { title: 'CSR & CSV', desc: 'Learn CSR management and Creating Shared Value (CSV) strategies with practical focus.' },
+      strategy: { title: 'ESG Reporting', desc: 'Learn global reporting standards including GRI, SASB, TCFD and practical writing methods.' },
+      balance: { title: 'Sustainable Investment', desc: 'Learn responsible investment principles and ESG portfolio construction strategies.' },
+    },
+    home: {
+      pathsTitle: 'Learning Paths',
+      pathsSubtitle: 'Choose a learning path that matches your goals and learn systematically.',
+      workflowTitle: 'Learning Flow',
+      workflowSubtitle: 'Master ESG management in 4 systematic steps.',
+      step1: 'ESG Fundamentals',
+      step1desc: 'Understand ESG concepts, history, and frameworks to build a foundation.',
+      step2: 'E·S·G Strategies',
+      step2desc: 'Master core strategies for environmental, social, and governance areas.',
+      step3: 'CSR & Social Economy',
+      step3desc: 'Apply CSR management, CSV, social enterprises, and cooperatives in practice.',
+      step4: 'Reporting & Investment',
+      step4desc: 'Complete practical competency with ESG reporting and sustainable investment strategies.',
+    },
+    stats: {
+      guides: 'ESG Guides',
+      topics: 'Topics Covered',
+      categories: 'Categories',
+    },
+    cta: {
+      title: 'Start ESG Learning Today',
+      description: 'Build core competencies in sustainable management with our systematic ESG guide.',
+      button: 'Start Learning',
+    },
+    footer: {
+      description: 'A comprehensive guide for learning ESG, CSR, and social economy systematically.',
+      descriptionDetail: 'We provide practice-oriented learning materials for E·S·G strategies, CSR management, ESG reporting, and sustainable investment.',
+      quickLinks: 'Quick Links',
+    },
+  },
+};
+
+export default translations;

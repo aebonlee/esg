@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="12" fill="#ECFDF5"/>
+  <!-- Title -->
+  <text x="200" y="35" font-family="sans-serif" font-size="14" font-weight="bold" fill="#374151" text-anchor="middle">Renewable Energy</text>
+  <!-- Solar Panel -->
+  <rect x="50" y="120" width="120" height="80" rx="4" fill="#1E40AF" stroke="#1E3A8A" stroke-width="2"/>
+  <!-- Solar panel grid lines -->
+  <line x1="90" y1="120" x2="90" y2="200" stroke="#93C5FD" stroke-width="1"/>
+  <line x1="130" y1="120" x2="130" y2="200" stroke="#93C5FD" stroke-width="1"/>
+  <line x1="50" y1="147" x2="170" y2="147" stroke="#93C5FD" stroke-width="1"/>
+  <line x1="50" y1="173" x2="170" y2="173" stroke="#93C5FD" stroke-width="1"/>
+  <!-- Solar panel stand -->
+  <rect x="105" y="200" width="10" height="40" fill="#6B7280"/>
+  <rect x="85" y="238" width="50" height="6" rx="3" fill="#6B7280"/>
+  <!-- Sun rays hitting panel -->
+  <line x1="80" y1="60" x2="80" y2="115" stroke="#FBBF24" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.6"/>
+  <line x1="110" y1="50" x2="110" y2="115" stroke="#FBBF24" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.6"/>
+  <line x1="140" y1="60" x2="140" y2="115" stroke="#FBBF24" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.6"/>
+  <!-- Small sun icon -->
+  <circle cx="110" cy="70" r="12" fill="#FBBF24" opacity="0.5"/>
+  <!-- Wind Turbine -->
+  <rect x="297" y="130" width="6" height="114" fill="#6B7280"/>
+  <!-- Turbine hub -->
+  <circle cx="300" cy="130" r="6" fill="#374151"/>
+  <!-- Blades -->
+  <line x1="300" y1="130" x2="300" y2="68" stroke="#374151" stroke-width="5" stroke-linecap="round"/>
+  <line x1="300" y1="130" x2="248" y2="160" stroke="#374151" stroke-width="5" stroke-linecap="round"/>
+  <line x1="300" y1="130" x2="350" y2="160" stroke="#374151" stroke-width="5" stroke-linecap="round"/>
+  <!-- Turbine base -->
+  <polygon points="280,244 320,244 308,230 292,230" fill="#6B7280"/>
+  <!-- Wind lines -->
+  <line x1="230" y1="100" x2="270" y2="100" stroke="#10B981" stroke-width="1.5" opacity="0.5" stroke-linecap="round"/>
+  <line x1="240" y1="115" x2="275" y2="115" stroke="#10B981" stroke-width="1.5" opacity="0.4" stroke-linecap="round"/>
+  <line x1="235" y1="85" x2="265" y2="85" stroke="#10B981" stroke-width="1.5" opacity="0.4" stroke-linecap="round"/>
+  <!-- Divider -->
+  <line x1="200" y1="80" x2="200" y2="250" stroke="#D1D5DB" stroke-width="1" stroke-dasharray="5 5"/>
+  <!-- Labels -->
+  <text x="110" y="270" font-family="sans-serif" font-size="12" fill="#10B981" font-weight="bold" text-anchor="middle">Solar</text>
+  <text x="300" y="270" font-family="sans-serif" font-size="12" fill="#10B981" font-weight="bold" text-anchor="middle">Wind</text>
+  <!-- Bottom label -->
+  <text x="200" y="290" font-family="sans-serif" font-size="10" fill="#6B7280" text-anchor="middle">Clean Energy Sources</text>
+</svg>

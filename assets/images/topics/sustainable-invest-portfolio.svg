@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="12" fill="#FFFBEB"/>
+  <!-- Briefcase body -->
+  <rect x="100" y="85" width="140" height="100" rx="10" fill="#F59E0B"/>
+  <!-- Briefcase handle -->
+  <rect x="145" y="65" width="50" height="25" rx="8" fill="none" stroke="#F59E0B" stroke-width="5"/>
+  <rect x="100" y="85" width="140" height="10" fill="#F59E0B"/>
+  <!-- Briefcase clasp -->
+  <rect x="160" y="125" width="20" height="14" rx="3" fill="#D97706"/>
+  <rect x="165" y="130" width="10" height="6" rx="2" fill="#FFFBEB" opacity="0.5"/>
+  <!-- Briefcase front pocket line -->
+  <line x1="115" y1="145" x2="225" y2="145" stroke="#D97706" stroke-width="1.5" opacity="0.5"/>
+  <!-- Briefcase stitching -->
+  <rect x="105" y="90" width="130" height="90" rx="6" fill="none" stroke="#D97706" stroke-width="1" stroke-dasharray="4,3" opacity="0.3"/>
+  <!-- Pie chart on right side -->
+  <circle cx="300" cy="140" r="60" fill="#F59E0B"/>
+  <!-- Pie slices -->
+  <path d="M300,140 L300,80 A60,60 0 0,1 348,110 Z" fill="#D97706"/>
+  <path d="M300,140 L348,110 A60,60 0 0,1 340,180 Z" fill="#F59E0B" opacity="0.7"/>
+  <path d="M300,140 L340,180 A60,60 0 0,1 270,185 Z" fill="#B45309"/>
+  <path d="M300,140 L270,185 A60,60 0 0,1 252,120 Z" fill="#FCD34D"/>
+  <path d="M300,140 L252,120 A60,60 0 0,1 300,80 Z" fill="#F59E0B" opacity="0.5"/>
+  <!-- Pie chart center -->
+  <circle cx="300" cy="140" r="20" fill="#FFFBEB"/>
+  <text x="300" y="145" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#F59E0B">ESG</text>
+  <!-- Legend items -->
+  <rect x="80" y="210" width="10" height="10" rx="2" fill="#D97706"/>
+  <text x="96" y="219" font-family="sans-serif" font-size="9" fill="#D97706">Equities 35%</text>
+  <rect x="175" y="210" width="10" height="10" rx="2" fill="#F59E0B" opacity="0.7"/>
+  <text x="191" y="219" font-family="sans-serif" font-size="9" fill="#F59E0B">Bonds 25%</text>
+  <rect x="270" y="210" width="10" height="10" rx="2" fill="#B45309"/>
+  <text x="286" y="219" font-family="sans-serif" font-size="9" fill="#B45309">Green 20%</text>
+  <rect x="120" y="230" width="10" height="10" rx="2" fill="#FCD34D"/>
+  <text x="136" y="239" font-family="sans-serif" font-size="9" fill="#D97706">Impact 12%</text>
+  <rect x="225" y="230" width="10" height="10" rx="2" fill="#F59E0B" opacity="0.5"/>
+  <text x="241" y="239" font-family="sans-serif" font-size="9" fill="#F59E0B">Other 8%</text>
+  <!-- Connection line briefcase to chart -->
+  <line x1="240" y1="135" x2="260" y2="138" stroke="#F59E0B" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.4"/>
+  <!-- Label -->
+  <text x="200" y="275" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#F59E0B" opacity="0.6">ESG Portfolio Allocation</text>
+</svg>

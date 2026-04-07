@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="12" fill="#FFF1F2"/>
+  <!-- Building -->
+  <rect x="140" y="90" width="120" height="145" rx="6" fill="#E11D48"/>
+  <!-- Windows -->
+  <rect x="155" y="110" width="22" height="20" rx="3" fill="#FFF1F2"/>
+  <rect x="189" y="110" width="22" height="20" rx="3" fill="#FFF1F2"/>
+  <rect x="223" y="110" width="22" height="20" rx="3" fill="#FFF1F2"/>
+  <rect x="155" y="142" width="22" height="20" rx="3" fill="#FFF1F2"/>
+  <rect x="189" y="142" width="22" height="20" rx="3" fill="#FFF1F2"/>
+  <rect x="223" y="142" width="22" height="20" rx="3" fill="#FFF1F2"/>
+  <rect x="155" y="174" width="22" height="20" rx="3" fill="#FFF1F2"/>
+  <rect x="189" y="174" width="22" height="20" rx="3" fill="#FFF1F2"/>
+  <rect x="223" y="174" width="22" height="20" rx="3" fill="#FFF1F2"/>
+  <!-- Door -->
+  <rect x="183" y="206" width="34" height="29" rx="4" fill="#FFF1F2"/>
+  <!-- Heart on building -->
+  <path d="M200 50 C200 42 188 32 178 36 C168 40 168 54 178 64 L200 82 L222 64 C232 54 232 40 222 36 C212 32 200 42 200 50Z" fill="#FB7185"/>
+  <!-- Roof accent -->
+  <rect x="135" y="82" width="130" height="10" rx="3" fill="#BE123C"/>
+  <!-- Ground -->
+  <rect x="100" y="235" width="200" height="4" rx="2" fill="#E11D48" opacity="0.2"/>
+  <!-- Title -->
+  <text x="200" y="275" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#E11D48">Social Enterprise</text>
+</svg>

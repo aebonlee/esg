@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="12" fill="#F5F3FF"/>
+  <!-- Shield background -->
+  <path d="M200 50 L260 80 L260 150 Q260 200 200 230 Q140 200 140 150 L140 80 Z" fill="#EDE9FE" stroke="#8B5CF6" stroke-width="2"/>
+  <!-- Handshake inside shield -->
+  <path d="M160 140 L180 130 L200 145 L220 130 L240 140" stroke="#8B5CF6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Left hand -->
+  <path d="M155 150 L175 140 L195 155" stroke="#7C3AED" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  <!-- Right hand -->
+  <path d="M245 150 L225 140 L205 155" stroke="#7C3AED" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  <!-- Grip detail -->
+  <circle cx="200" cy="148" r="4" fill="#8B5CF6"/>
+  <!-- Shield checkmark -->
+  <path d="M188 175 L198 185 L215 165" stroke="#8B5CF6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Small decorative elements -->
+  <circle cx="100" cy="80" r="6" fill="#DDD6FE"/>
+  <circle cx="300" cy="80" r="6" fill="#DDD6FE"/>
+  <rect x="90" cy="200" y="200" width="12" height="12" rx="2" fill="#EDE9FE"/>
+  <rect x="298" y="200" width="12" height="12" rx="2" fill="#EDE9FE"/>
+  <!-- Label -->
+  <text x="200" y="268" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#8B5CF6">Labor Rights</text>
+</svg>

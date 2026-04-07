@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="16" fill="#F3F4F6"/>
+
+  <!-- Brain outline -->
+  <ellipse cx="200" cy="145" rx="140" ry="110" fill="white" stroke="#8B5CF6" stroke-width="2"/>
+
+  <!-- Center dividing line -->
+  <line x1="200" y1="35" x2="200" y2="255" stroke="#8B5CF6" stroke-width="2" stroke-dasharray="6 3"/>
+
+  <!-- DUAL CODING label in center -->
+  <rect x="155" y="128" width="90" height="30" rx="8" fill="#8B5CF6"/>
+  <text x="200" y="148" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="white">Dual Coding</text>
+
+  <!-- LEFT SIDE: Verbal -->
+  <text x="110" y="60" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#8B5CF6">Verbal</text>
+
+  <!-- Text/word representations -->
+  <rect x="50" y="75" width="80" height="18" rx="6" fill="#EDE9FE"/>
+  <text x="90" y="88" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#7C3AED">Definitions</text>
+
+  <rect x="60" y="100" width="70" height="18" rx="6" fill="#EDE9FE"/>
+  <text x="95" y="113" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#7C3AED">Lists</text>
+
+  <!-- Word "Apple" example -->
+  <rect x="70" y="170" width="70" height="30" rx="8" fill="#EDE9FE" stroke="#8B5CF6" stroke-width="1.5"/>
+  <text x="105" y="190" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#7C3AED">"Apple"</text>
+
+  <rect x="55" y="210" width="85" height="18" rx="6" fill="#EDE9FE"/>
+  <text x="97" y="223" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#7C3AED">Notes &amp; Words</text>
+
+  <!-- Text lines icon -->
+  <line x1="75" y1="237" x2="125" y2="237" stroke="#C4B5FD" stroke-width="2" stroke-linecap="round"/>
+  <line x1="75" y1="243" x2="118" y2="243" stroke="#C4B5FD" stroke-width="2" stroke-linecap="round"/>
+  <line x1="75" y1="249" x2="122" y2="249" stroke="#C4B5FD" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- RIGHT SIDE: Visual -->
+  <text x="290" y="60" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#8B5CF6">Visual</text>
+
+  <!-- Image representations -->
+  <rect x="260" y="75" width="80" height="18" rx="6" fill="#EDE9FE"/>
+  <text x="300" y="88" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#7C3AED">Diagrams</text>
+
+  <rect x="270" y="100" width="70" height="18" rx="6" fill="#EDE9FE"/>
+  <text x="305" y="113" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#7C3AED">Charts</text>
+
+  <!-- Apple image example -->
+  <g transform="translate(275, 168)">
+    <!-- Apple body -->
+    <ellipse cx="25" cy="18" rx="18" ry="16" fill="#EF4444"/>
+    <ellipse cx="25" cy="18" rx="18" ry="16" fill="none" stroke="#DC2626" stroke-width="1"/>
+    <!-- Highlight -->
+    <ellipse cx="19" cy="12" rx="5" ry="7" fill="#FCA5A5" opacity="0.5"/>
+    <!-- Stem -->
+    <path d="M25 2 C25 -2, 27 -4, 28 -5" stroke="#92400E" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Leaf -->
+    <ellipse cx="32" cy="0" rx="6" ry="3" fill="#34D399" transform="rotate(-30 32 0)"/>
+  </g>
+
+  <rect x="255" y="210" width="85" height="18" rx="6" fill="#EDE9FE"/>
+  <text x="297" y="223" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#7C3AED">Images &amp; Maps</text>
+
+  <!-- Small icons -->
+  <rect x="270" y="234" width="20" height="16" rx="3" fill="#C4B5FD"/>
+  <rect x="295" y="234" width="20" height="16" rx="3" fill="#DDD6FE"/>
+  <rect x="270" y="234" width="20" height="16" rx="3" fill="none" stroke="#A78BFA" stroke-width="1"/>
+  <rect x="295" y="234" width="20" height="16" rx="3" fill="none" stroke="#A78BFA" stroke-width="1"/>
+
+  <!-- Arrows pointing to both sides -->
+  <!-- Left arrow -->
+  <path d="M170 143 L145 143" stroke="#8B5CF6" stroke-width="2" marker-end="url(#arrowV)"/>
+  <!-- Right arrow -->
+  <path d="M230 143 L255 143" stroke="#8B5CF6" stroke-width="2" marker-end="url(#arrowV)"/>
+
+  <!-- Connection label at top -->
+  <text x="200" y="22" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6B7280">Memory is stronger when encoded both ways</text>
+
+  <!-- Bottom label -->
+  <rect x="120" y="270" width="160" height="22" rx="8" fill="#EDE9FE" stroke="#8B5CF6" stroke-width="1"/>
+  <text x="200" y="285" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#8B5CF6">65% better retention</text>
+
+  <defs>
+    <marker id="arrowV" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0 0 L8 3 L0 6Z" fill="#8B5CF6"/>
+    </marker>
+  </defs>
+</svg>

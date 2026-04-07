@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="12" fill="#F3F4F6"/>
+
+  <!-- Title -->
+  <text x="200" y="26" text-anchor="middle" fill="#334155" font-size="14" font-family="system-ui" font-weight="700">SMART Goals Framework</text>
+
+  <!-- Central target/bullseye -->
+  <circle cx="200" cy="155" r="58" fill="#F59E0B" opacity="0.12"/>
+  <circle cx="200" cy="155" r="45" fill="#F59E0B" opacity="0.2"/>
+  <circle cx="200" cy="155" r="32" fill="#F59E0B" opacity="0.35"/>
+  <circle cx="200" cy="155" r="19" fill="#F59E0B" opacity="0.55"/>
+  <circle cx="200" cy="155" r="8" fill="#F59E0B"/>
+
+  <!-- Connecting lines to labels -->
+  <!-- S - top left -->
+  <line x1="160" y1="115" x2="85" y2="65" stroke="#F59E0B" stroke-width="1" stroke-dasharray="4,2" opacity="0.6"/>
+  <!-- M - top right -->
+  <line x1="240" y1="115" x2="315" y2="65" stroke="#F59E0B" stroke-width="1" stroke-dasharray="4,2" opacity="0.6"/>
+  <!-- A - right -->
+  <line x1="250" y1="155" x2="335" y2="155" stroke="#F59E0B" stroke-width="1" stroke-dasharray="4,2" opacity="0.6"/>
+  <!-- R - bottom right -->
+  <line x1="240" y1="195" x2="315" y2="240" stroke="#F59E0B" stroke-width="1" stroke-dasharray="4,2" opacity="0.6"/>
+  <!-- T - bottom left -->
+  <line x1="160" y1="195" x2="85" y2="240" stroke="#F59E0B" stroke-width="1" stroke-dasharray="4,2" opacity="0.6"/>
+
+  <!-- S - Specific (top-left) -->
+  <circle cx="65" cy="55" r="22" fill="white" stroke="#F59E0B" stroke-width="2"/>
+  <text x="65" y="60" text-anchor="middle" fill="#F59E0B" font-size="20" font-family="system-ui" font-weight="800">S</text>
+  <!-- Crosshair icon -->
+  <g transform="translate(65,55)">
+    <circle cx="0" cy="0" r="8" fill="none" stroke="#D97706" stroke-width="0.8" opacity="0.4"/>
+    <line x1="-12" y1="0" x2="12" y2="0" stroke="#D97706" stroke-width="0.5" opacity="0.3"/>
+    <line x1="0" y1="-12" x2="0" y2="12" stroke="#D97706" stroke-width="0.5" opacity="0.3"/>
+  </g>
+  <text x="65" y="88" text-anchor="middle" fill="#334155" font-size="9" font-family="system-ui" font-weight="700">Specific</text>
+  <text x="65" y="100" text-anchor="middle" fill="#64748B" font-size="7" font-family="system-ui">Clear &amp; precise</text>
+
+  <!-- M - Measurable (top-right) -->
+  <circle cx="335" cy="55" r="22" fill="white" stroke="#F59E0B" stroke-width="2"/>
+  <text x="335" y="60" text-anchor="middle" fill="#F59E0B" font-size="20" font-family="system-ui" font-weight="800">M</text>
+  <!-- Ruler icon -->
+  <g transform="translate(335,55)">
+    <rect x="-3" y="-10" width="6" height="20" rx="1" fill="#D97706" opacity="0.25"/>
+    <line x1="-3" y1="-6" x2="0" y2="-6" stroke="#D97706" stroke-width="0.6" opacity="0.4"/>
+    <line x1="-3" y1="-2" x2="1" y2="-2" stroke="#D97706" stroke-width="0.6" opacity="0.4"/>
+    <line x1="-3" y1="2" x2="0" y2="2" stroke="#D97706" stroke-width="0.6" opacity="0.4"/>
+    <line x1="-3" y1="6" x2="1" y2="6" stroke="#D97706" stroke-width="0.6" opacity="0.4"/>
+  </g>
+  <text x="335" y="88" text-anchor="middle" fill="#334155" font-size="9" font-family="system-ui" font-weight="700">Measurable</text>
+  <text x="335" y="100" text-anchor="middle" fill="#64748B" font-size="7" font-family="system-ui">Track progress</text>
+
+  <!-- A - Achievable (right) -->
+  <circle cx="355" cy="155" r="22" fill="white" stroke="#F59E0B" stroke-width="2"/>
+  <text x="355" y="160" text-anchor="middle" fill="#F59E0B" font-size="20" font-family="system-ui" font-weight="800">A</text>
+  <!-- Checkmark icon -->
+  <g transform="translate(355,155)">
+    <path d="M-5,0 L-1,4 L6,-5" stroke="#D97706" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.35"/>
+  </g>
+  <text x="355" y="188" text-anchor="middle" fill="#334155" font-size="9" font-family="system-ui" font-weight="700">Achievable</text>
+  <text x="355" y="200" text-anchor="middle" fill="#64748B" font-size="7" font-family="system-ui">Realistic stretch</text>
+
+  <!-- R - Relevant (bottom-right) -->
+  <circle cx="335" cy="248" r="22" fill="white" stroke="#F59E0B" stroke-width="2"/>
+  <text x="335" y="253" text-anchor="middle" fill="#F59E0B" font-size="20" font-family="system-ui" font-weight="800">R</text>
+  <!-- Compass icon -->
+  <g transform="translate(335,248)">
+    <circle cx="0" cy="0" r="8" fill="none" stroke="#D97706" stroke-width="0.8" opacity="0.3"/>
+    <polygon points="0,-7 2,0 0,7 -2,0" fill="#D97706" opacity="0.25"/>
+  </g>
+  <text x="335" y="280" text-anchor="middle" fill="#334155" font-size="9" font-family="system-ui" font-weight="700">Relevant</text>
+  <text x="335" y="292" text-anchor="middle" fill="#64748B" font-size="7" font-family="system-ui">Aligned to values</text>
+
+  <!-- T - Time-bound (bottom-left) -->
+  <circle cx="65" cy="248" r="22" fill="white" stroke="#F59E0B" stroke-width="2"/>
+  <text x="65" y="253" text-anchor="middle" fill="#F59E0B" font-size="20" font-family="system-ui" font-weight="800">T</text>
+  <!-- Clock icon -->
+  <g transform="translate(65,248)">
+    <circle cx="0" cy="0" r="8" fill="none" stroke="#D97706" stroke-width="0.8" opacity="0.3"/>
+    <line x1="0" y1="0" x2="0" y2="-5" stroke="#D97706" stroke-width="0.8" opacity="0.4"/>
+    <line x1="0" y1="0" x2="4" y2="1" stroke="#D97706" stroke-width="0.8" opacity="0.4"/>
+  </g>
+  <text x="65" y="280" text-anchor="middle" fill="#334155" font-size="9" font-family="system-ui" font-weight="700">Time-bound</text>
+  <text x="65" y="292" text-anchor="middle" fill="#64748B" font-size="7" font-family="system-ui">Set a deadline</text>
+
+  <!-- Arrow pointing to bullseye center -->
+  <g transform="translate(200,155)">
+    <line x1="-70" y1="-30" x2="-12" y2="-5" stroke="#D97706" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+    <polygon points="-12,-5 -20,-8 -16,-1" fill="#D97706" opacity="0.5"/>
+  </g>
+</svg>

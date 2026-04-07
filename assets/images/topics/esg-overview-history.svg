@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="12" fill="#F0FDF4"/>
+  <!-- Title -->
+  <text x="200" y="40" font-family="sans-serif" font-size="14" font-weight="bold" fill="#374151" text-anchor="middle">ESG History Timeline</text>
+  <!-- Timeline base line -->
+  <line x1="40" y1="150" x2="360" y2="150" stroke="#059669" stroke-width="3" stroke-linecap="round"/>
+  <!-- 2004 -->
+  <circle cx="72" cy="150" r="8" fill="#059669"/>
+  <line x1="72" y1="142" x2="72" y2="100" stroke="#059669" stroke-width="1.5"/>
+  <text x="72" y="90" font-family="sans-serif" font-size="13" font-weight="bold" fill="#059669" text-anchor="middle">2004</text>
+  <text x="72" y="178" font-family="sans-serif" font-size="9" fill="#6B7280" text-anchor="middle">UN Global</text>
+  <text x="72" y="190" font-family="sans-serif" font-size="9" fill="#6B7280" text-anchor="middle">Compact</text>
+  <!-- 2006 -->
+  <circle cx="144" cy="150" r="8" fill="#059669"/>
+  <line x1="144" y1="158" x2="144" y2="200" stroke="#059669" stroke-width="1.5"/>
+  <text x="144" y="215" font-family="sans-serif" font-size="13" font-weight="bold" fill="#059669" text-anchor="middle">2006</text>
+  <text x="144" y="120" font-family="sans-serif" font-size="9" fill="#6B7280" text-anchor="middle">UN PRI</text>
+  <text x="144" y="132" font-family="sans-serif" font-size="9" fill="#6B7280" text-anchor="middle">Launch</text>
+  <!-- 2015 -->
+  <circle cx="216" cy="150" r="8" fill="#059669"/>
+  <line x1="216" y1="142" x2="216" y2="100" stroke="#059669" stroke-width="1.5"/>
+  <text x="216" y="90" font-family="sans-serif" font-size="13" font-weight="bold" fill="#059669" text-anchor="middle">2015</text>
+  <text x="216" y="178" font-family="sans-serif" font-size="9" fill="#6B7280" text-anchor="middle">Paris</text>
+  <text x="216" y="190" font-family="sans-serif" font-size="9" fill="#6B7280" text-anchor="middle">Agreement</text>
+  <!-- 2020 -->
+  <circle cx="288" cy="150" r="8" fill="#059669"/>
+  <line x1="288" y1="158" x2="288" y2="200" stroke="#059669" stroke-width="1.5"/>
+  <text x="288" y="215" font-family="sans-serif" font-size="13" font-weight="bold" fill="#059669" text-anchor="middle">2020</text>
+  <text x="288" y="120" font-family="sans-serif" font-size="9" fill="#6B7280" text-anchor="middle">ESG</text>
+  <text x="288" y="132" font-family="sans-serif" font-size="9" fill="#6B7280" text-anchor="middle">Mainstreaming</text>
+  <!-- 2025 -->
+  <circle cx="348" cy="150" r="10" fill="#059669" stroke="#047857" stroke-width="2"/>
+  <line x1="348" y1="140" x2="348" y2="100" stroke="#059669" stroke-width="1.5"/>
+  <text x="348" y="90" font-family="sans-serif" font-size="13" font-weight="bold" fill="#059669" text-anchor="middle">2025</text>
+  <text x="348" y="178" font-family="sans-serif" font-size="9" fill="#6B7280" text-anchor="middle">ISSB</text>
+  <text x="348" y="190" font-family="sans-serif" font-size="9" fill="#6B7280" text-anchor="middle">Standards</text>
+  <!-- Arrow tip -->
+  <polygon points="360,150 352,144 352,156" fill="#059669"/>
+</svg>

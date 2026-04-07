@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="16" fill="#F3F4F6"/>
+
+  <!-- Title -->
+  <text x="200" y="26" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#8B5CF6">Chunking Technique</text>
+
+  <!-- Top: Random string (hard to remember) -->
+  <rect x="50" y="40" width="300" height="45" rx="10" fill="white" stroke="#EF4444" stroke-width="1.5"/>
+  <text x="200" y="55" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#EF4444">Hard to remember</text>
+  <text x="200" y="73" text-anchor="middle" font-family="monospace" font-size="18" fill="#374151">4 9 2 8 1 5 7 3 0 6 2 4</text>
+  <!-- X mark -->
+  <text x="370" y="68" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#EF4444">&#10007;</text>
+
+  <!-- Arrow down -->
+  <path d="M200 90 L200 115" stroke="#8B5CF6" stroke-width="2.5" marker-end="url(#arrowP)"/>
+  <text x="230" y="105" font-family="sans-serif" font-size="9" fill="#8B5CF6" font-weight="bold">Chunk it!</text>
+
+  <!-- Bottom: Chunked string (easy to remember) -->
+  <rect x="50" y="120" width="300" height="45" rx="10" fill="white" stroke="#8B5CF6" stroke-width="2"/>
+  <text x="200" y="135" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#8B5CF6">Easy to remember</text>
+  <text x="200" y="153" text-anchor="middle" font-family="monospace" font-size="18" font-weight="bold" fill="#8B5CF6">4928 - 1573 - 0624</text>
+  <!-- Check mark -->
+  <text x="370" y="148" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#059669">&#10003;</text>
+
+  <!-- 12 items → 3 chunks label -->
+  <rect x="130" y="170" width="140" height="22" rx="8" fill="#EDE9FE"/>
+  <text x="200" y="185" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#8B5CF6">12 items &#8594; 3 chunks</text>
+
+  <!-- Three grouped boxes below -->
+  <!-- Box 1: Animals -->
+  <rect x="20" y="205" width="110" height="80" rx="10" fill="white" stroke="#8B5CF6" stroke-width="1.5"/>
+  <rect x="20" y="205" width="110" height="24" rx="10" fill="#8B5CF6"/>
+  <rect x="20" y="218" width="110" height="11" fill="#8B5CF6"/>
+  <text x="75" y="222" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="white">Animals</text>
+  <text x="75" y="245" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#6B7280">Dog, Cat,</text>
+  <text x="75" y="258" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#6B7280">Bird, Fish</text>
+  <circle cx="75" cy="275" r="3" fill="#C4B5FD"/>
+
+  <!-- Box 2: Fruits -->
+  <rect x="145" y="205" width="110" height="80" rx="10" fill="white" stroke="#8B5CF6" stroke-width="1.5"/>
+  <rect x="145" y="205" width="110" height="24" rx="10" fill="#A78BFA"/>
+  <rect x="145" y="218" width="110" height="11" fill="#A78BFA"/>
+  <text x="200" y="222" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="white">Fruits</text>
+  <text x="200" y="245" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#6B7280">Apple, Banana,</text>
+  <text x="200" y="258" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#6B7280">Orange, Grape</text>
+  <circle cx="200" cy="275" r="3" fill="#C4B5FD"/>
+
+  <!-- Box 3: Colors -->
+  <rect x="270" y="205" width="110" height="80" rx="10" fill="white" stroke="#8B5CF6" stroke-width="1.5"/>
+  <rect x="270" y="205" width="110" height="24" rx="10" fill="#7C3AED"/>
+  <rect x="270" y="218" width="110" height="11" fill="#7C3AED"/>
+  <text x="325" y="222" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="white">Colors</text>
+  <text x="325" y="245" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#6B7280">Red, Blue,</text>
+  <text x="325" y="258" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#6B7280">Green, Yellow</text>
+  <circle cx="325" cy="275" r="3" fill="#C4B5FD"/>
+
+  <defs>
+    <marker id="arrowP" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0 0 L8 3 L0 6Z" fill="#8B5CF6"/>
+    </marker>
+  </defs>
+</svg>

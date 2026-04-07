@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" fill="none">
+  <rect width="800" height="400" rx="16" fill="#ECFEFF"/>
+  <!-- Document body -->
+  <rect x="280" y="40" width="240" height="320" rx="12" fill="white" stroke="#0891B2" stroke-width="3"/>
+  <!-- Document header bar -->
+  <rect x="280" y="40" width="240" height="50" rx="12" fill="#0891B2"/>
+  <rect x="280" y="70" width="240" height="20" fill="#0891B2"/>
+  <text x="400" y="72" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="white">ESG REPORT</text>
+  <!-- Bar chart -->
+  <rect x="310" y="220" width="30" height="60" rx="4" fill="#0891B2"/>
+  <rect x="350" y="190" width="30" height="90" rx="4" fill="#0891B2" opacity="0.8"/>
+  <rect x="390" y="160" width="30" height="120" rx="4" fill="#0891B2"/>
+  <rect x="430" y="175" width="30" height="105" rx="4" fill="#0891B2" opacity="0.7"/>
+  <rect x="470" y="140" width="30" height="140" rx="4" fill="#0891B2" opacity="0.9"/>
+  <!-- Chart baseline -->
+  <line x1="300" y1="280" x2="510" y2="280" stroke="#0891B2" stroke-width="2"/>
+  <!-- Text lines on document -->
+  <rect x="310" y="105" width="180" height="8" rx="4" fill="#0891B2" opacity="0.3"/>
+  <rect x="310" y="120" width="140" height="8" rx="4" fill="#0891B2" opacity="0.3"/>
+  <rect x="310" y="135" width="160" height="8" rx="4" fill="#0891B2" opacity="0.3"/>
+  <!-- Trend arrow going up -->
+  <polyline points="310,260 370,230 430,240 490,170" stroke="#065F6B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <polygon points="490,170 480,182 492,180" fill="#065F6B"/>
+  <!-- Decorative circles left -->
+  <circle cx="140" cy="120" r="40" fill="#0891B2" opacity="0.15"/>
+  <circle cx="120" cy="280" r="55" fill="#0891B2" opacity="0.1"/>
+  <!-- Decorative circles right -->
+  <circle cx="660" cy="100" r="50" fill="#0891B2" opacity="0.12"/>
+  <circle cx="680" cy="300" r="35" fill="#0891B2" opacity="0.15"/>
+  <!-- E S G letters -->
+  <text x="140" y="128" text-anchor="middle" font-family="sans-serif" font-size="28" font-weight="bold" fill="#0891B2">E</text>
+  <text x="660" y="108" text-anchor="middle" font-family="sans-serif" font-size="28" font-weight="bold" fill="#0891B2">S</text>
+  <text x="680" y="308" text-anchor="middle" font-family="sans-serif" font-size="28" font-weight="bold" fill="#0891B2">G</text>
+  <!-- Bottom label -->
+  <text x="400" y="385" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#0891B2" opacity="0.6">ESG Reporting Framework</text>
+</svg>

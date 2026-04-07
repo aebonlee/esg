@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Background -->
+  <rect width="400" height="300" rx="12" fill="#F3F4F6"/>
+
+  <!-- Title -->
+  <text x="200" y="24" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#9F1239" text-anchor="middle">Past Exam Frequency Analysis</text>
+
+  <!-- LEFT: Frequency Heatmap -->
+  <rect x="15" y="35" width="230" height="165" rx="8" fill="white" stroke="#FECDD3" stroke-width="1"/>
+
+  <!-- Heatmap Title -->
+  <text x="130" y="50" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#374151" text-anchor="middle">Topic Frequency Heatmap</text>
+
+  <!-- Y-axis labels (topics) -->
+  <text x="62" y="72" font-family="Arial, sans-serif" font-size="7" fill="#374151" text-anchor="end">Process Mgmt</text>
+  <text x="62" y="92" font-family="Arial, sans-serif" font-size="7" fill="#374151" text-anchor="end">Memory</text>
+  <text x="62" y="112" font-family="Arial, sans-serif" font-size="7" fill="#374151" text-anchor="end">File System</text>
+  <text x="62" y="132" font-family="Arial, sans-serif" font-size="7" fill="#374151" text-anchor="end">Networking</text>
+  <text x="62" y="152" font-family="Arial, sans-serif" font-size="7" fill="#374151" text-anchor="end">Security</text>
+  <text x="62" y="172" font-family="Arial, sans-serif" font-size="7" fill="#374151" text-anchor="end">Database</text>
+
+  <!-- X-axis labels (years) -->
+  <text x="88" y="190" font-family="Arial, sans-serif" font-size="7" fill="#6B7280" text-anchor="middle">2022</text>
+  <text x="118" y="190" font-family="Arial, sans-serif" font-size="7" fill="#6B7280" text-anchor="middle">2023</text>
+  <text x="148" y="190" font-family="Arial, sans-serif" font-size="7" fill="#6B7280" text-anchor="middle">2024</text>
+  <text x="178" y="190" font-family="Arial, sans-serif" font-size="7" fill="#6B7280" text-anchor="middle">2025</text>
+  <text x="208" y="190" font-family="Arial, sans-serif" font-size="7" fill="#6B7280" text-anchor="middle">2026</text>
+
+  <!-- Heatmap cells - Row 1: Process (high freq - A grade) -->
+  <rect x="72" y="62" width="28" height="16" rx="2" fill="#E11D48" opacity="0.9"/>
+  <rect x="102" y="62" width="28" height="16" rx="2" fill="#E11D48" opacity="0.85"/>
+  <rect x="132" y="62" width="28" height="16" rx="2" fill="#E11D48" opacity="0.9"/>
+  <rect x="162" y="62" width="28" height="16" rx="2" fill="#E11D48" opacity="0.8"/>
+  <rect x="192" y="62" width="28" height="16" rx="2" fill="#E11D48" opacity="0.9"/>
+
+  <!-- Row 2: Memory (high freq) -->
+  <rect x="72" y="82" width="28" height="16" rx="2" fill="#E11D48" opacity="0.75"/>
+  <rect x="102" y="82" width="28" height="16" rx="2" fill="#E11D48" opacity="0.8"/>
+  <rect x="132" y="82" width="28" height="16" rx="2" fill="#E11D48" opacity="0.7"/>
+  <rect x="162" y="82" width="28" height="16" rx="2" fill="#E11D48" opacity="0.85"/>
+  <rect x="192" y="82" width="28" height="16" rx="2" fill="#E11D48" opacity="0.75"/>
+
+  <!-- Row 3: File System (medium) -->
+  <rect x="72" y="102" width="28" height="16" rx="2" fill="#FB7185" opacity="0.5"/>
+  <rect x="102" y="102" width="28" height="16" rx="2" fill="#FB7185" opacity="0.6"/>
+  <rect x="132" y="102" width="28" height="16" rx="2" fill="#FB7185" opacity="0.4"/>
+  <rect x="162" y="102" width="28" height="16" rx="2" fill="#FB7185" opacity="0.55"/>
+  <rect x="192" y="102" width="28" height="16" rx="2" fill="#FB7185" opacity="0.5"/>
+
+  <!-- Row 4: Networking (medium) -->
+  <rect x="72" y="122" width="28" height="16" rx="2" fill="#FB7185" opacity="0.45"/>
+  <rect x="102" y="122" width="28" height="16" rx="2" fill="#FB7185" opacity="0.3"/>
+  <rect x="132" y="122" width="28" height="16" rx="2" fill="#FB7185" opacity="0.5"/>
+  <rect x="162" y="122" width="28" height="16" rx="2" fill="#FB7185" opacity="0.45"/>
+  <rect x="192" y="122" width="28" height="16" rx="2" fill="#FB7185" opacity="0.4"/>
+
+  <!-- Row 5: Security (low) -->
+  <rect x="72" y="142" width="28" height="16" rx="2" fill="#FECDD3" opacity="0.6"/>
+  <rect x="102" y="142" width="28" height="16" rx="2" fill="#FECDD3" opacity="0.5"/>
+  <rect x="132" y="142" width="28" height="16" rx="2" fill="#FECDD3" opacity="0.4"/>
+  <rect x="162" y="142" width="28" height="16" rx="2" fill="#FB7185" opacity="0.3"/>
+  <rect x="192" y="142" width="28" height="16" rx="2" fill="#FECDD3" opacity="0.5"/>
+
+  <!-- Row 6: Database (low) -->
+  <rect x="72" y="162" width="28" height="16" rx="2" fill="#FECDD3" opacity="0.4"/>
+  <rect x="102" y="162" width="28" height="16" rx="2" fill="#FECDD3" opacity="0.5"/>
+  <rect x="132" y="162" width="28" height="16" rx="2" fill="#FECDD3" opacity="0.3"/>
+  <rect x="162" y="162" width="28" height="16" rx="2" fill="#FECDD3" opacity="0.4"/>
+  <rect x="192" y="162" width="28" height="16" rx="2" fill="#FECDD3" opacity="0.35"/>
+
+  <!-- "A" grade highlight bar on top row -->
+  <rect x="69" y="59" width="155" height="22" rx="3" fill="none" stroke="#F59E0B" stroke-width="2" stroke-dasharray="4 2"/>
+  <rect x="224" y="60" width="16" height="20" rx="4" fill="#F59E0B"/>
+  <text x="232" y="74" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle">A</text>
+
+  <!-- Magnifying glass over heatmap -->
+  <circle cx="170" cy="110" r="20" fill="none" stroke="#E11D48" stroke-width="2" opacity="0.4"/>
+  <line x1="184" y1="124" x2="195" y2="135" stroke="#E11D48" stroke-width="2" opacity="0.4" stroke-linecap="round"/>
+
+  <!-- RIGHT: Error Classification Pie Chart -->
+  <rect x="255" y="35" width="135" height="165" rx="8" fill="white" stroke="#FECDD3" stroke-width="1"/>
+  <text x="322" y="50" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#374151" text-anchor="middle">Error Classification</text>
+
+  <!-- Pie chart -->
+  <!-- Conceptual (40%) - top-right -->
+  <path d="M322 120 L322 80 A40 40 0 0 1 356 104 Z" fill="#E11D48"/>
+  <!-- Careless (25%) - right -->
+  <path d="M322 120 L356 104 A40 40 0 0 1 345 150 Z" fill="#FB7185"/>
+  <!-- Time (20%) - bottom -->
+  <path d="M322 120 L345 150 A40 40 0 0 1 298 148 Z" fill="#FECDD3"/>
+  <!-- Unknown (15%) - left -->
+  <path d="M322 120 L298 148 A40 40 0 0 1 322 80 Z" fill="#FFF1F2" stroke="#FECDD3" stroke-width="0.5"/>
+
+  <!-- Pie labels -->
+  <circle cx="275" cy="0" r="0" fill="none"/>
+  <rect x="265" y="168" width="8" height="8" rx="1" fill="#E11D48"/>
+  <text x="276" y="176" font-family="Arial, sans-serif" font-size="7" fill="#374151">Concept 40%</text>
+  <rect x="330" y="168" width="8" height="8" rx="1" fill="#FB7185"/>
+  <text x="341" y="176" font-family="Arial, sans-serif" font-size="7" fill="#374151">Careless 25%</text>
+  <rect x="265" y="182" width="8" height="8" rx="1" fill="#FECDD3"/>
+  <text x="276" y="190" font-family="Arial, sans-serif" font-size="7" fill="#374151">Time 20%</text>
+  <rect x="330" y="182" width="8" height="8" rx="1" fill="#FFF1F2" stroke="#FECDD3" stroke-width="0.5"/>
+  <text x="341" y="190" font-family="Arial, sans-serif" font-size="7" fill="#374151">Unknown 15%</text>
+
+  <!-- Legend: Frequency scale -->
+  <text x="50" y="215" font-family="Arial, sans-serif" font-size="8" fill="#6B7280">Frequency:</text>
+  <rect x="100" y="208" width="20" height="10" rx="2" fill="#FECDD3"/>
+  <text x="125" y="217" font-family="Arial, sans-serif" font-size="7" fill="#6B7280">Low</text>
+  <rect x="145" y="208" width="20" height="10" rx="2" fill="#FB7185" opacity="0.6"/>
+  <text x="170" y="217" font-family="Arial, sans-serif" font-size="7" fill="#6B7280">Med</text>
+  <rect x="190" y="208" width="20" height="10" rx="2" fill="#E11D48" opacity="0.9"/>
+  <text x="215" y="217" font-family="Arial, sans-serif" font-size="7" fill="#6B7280">High</text>
+
+  <!-- Bottom insight box -->
+  <rect x="30" y="230" width="340" height="45" rx="8" fill="#FFF1F2" stroke="#E11D48" stroke-width="1"/>
+  <text x="200" y="248" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#9F1239" text-anchor="middle">80% of questions come from 20% of core topics</text>
+  <text x="200" y="262" font-family="Arial, sans-serif" font-size="8" fill="#6B7280" text-anchor="middle">Focus on A-grade topics first, then work down to B and C</text>
+
+  <!-- Title bottom -->
+  <text x="200" y="290" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#9F1239" text-anchor="middle">Analyze Patterns, Prioritize Smart</text>
+</svg>

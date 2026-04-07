@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="12" fill="#F5F3FF"/>
+  <!-- Circular arrangement ring -->
+  <circle cx="200" cy="135" r="75" stroke="#EDE9FE" stroke-width="2" fill="none"/>
+  <!-- Person top -->
+  <circle cx="200" cy="60" r="16" fill="#8B5CF6"/>
+  <circle cx="200" cy="54" r="6" fill="#F5F3FF"/>
+  <rect x="194" y="66" width="12" height="8" rx="3" fill="#F5F3FF"/>
+  <!-- Person top-right -->
+  <circle cx="265" cy="82" r="16" fill="#A78BFA"/>
+  <circle cx="265" cy="76" r="6" fill="#F5F3FF"/>
+  <rect x="259" y="88" width="12" height="8" rx="3" fill="#F5F3FF"/>
+  <!-- Person right -->
+  <circle cx="275" cy="145" r="16" fill="#7C3AED"/>
+  <circle cx="275" cy="139" r="6" fill="#F5F3FF"/>
+  <rect x="269" y="151" width="12" height="8" rx="3" fill="#F5F3FF"/>
+  <!-- Person bottom-right -->
+  <circle cx="250" cy="198" r="16" fill="#C4B5FD"/>
+  <circle cx="250" cy="192" r="6" fill="#F5F3FF"/>
+  <rect x="244" y="204" width="12" height="8" rx="3" fill="#F5F3FF"/>
+  <!-- Person bottom-left -->
+  <circle cx="150" cy="198" r="16" fill="#6D28D9"/>
+  <circle cx="150" cy="192" r="6" fill="#F5F3FF"/>
+  <rect x="144" y="204" width="12" height="8" rx="3" fill="#F5F3FF"/>
+  <!-- Person left -->
+  <circle cx="125" cy="145" r="16" fill="#DDD6FE"/>
+  <circle cx="125" cy="139" r="6" fill="#7C3AED"/>
+  <rect x="119" y="151" width="12" height="8" rx="3" fill="#7C3AED"/>
+  <!-- Person top-left -->
+  <circle cx="135" cy="82" r="16" fill="#A78BFA"/>
+  <circle cx="135" cy="76" r="6" fill="#F5F3FF"/>
+  <rect x="129" y="88" width="12" height="8" rx="3" fill="#F5F3FF"/>
+  <!-- Center heart / unity symbol -->
+  <path d="M200 125 L208 117 Q216 109 208 101 Q200 93 200 101 Q200 93 192 101 Q184 109 192 117 Z" fill="#8B5CF6"/>
+  <!-- Label -->
+  <text x="200" y="265" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#8B5CF6">Diversity &amp; Inclusion</text>
+</svg>

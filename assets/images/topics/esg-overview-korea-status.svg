@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="12" fill="#F0FDF4"/>
+  <!-- Title -->
+  <text x="200" y="35" font-family="sans-serif" font-size="14" font-weight="bold" fill="#374151" text-anchor="middle">Korea ESG Status</text>
+  <!-- Korean flag inspired color bars (blue #003478, red #C60C30) -->
+  <!-- Bar chart base line -->
+  <line x1="60" y1="240" x2="350" y2="240" stroke="#9CA3AF" stroke-width="1.5"/>
+  <!-- Y-axis -->
+  <line x1="60" y1="60" x2="60" y2="240" stroke="#9CA3AF" stroke-width="1.5"/>
+  <!-- Y-axis labels -->
+  <text x="50" y="245" font-family="sans-serif" font-size="9" fill="#9CA3AF" text-anchor="end">0%</text>
+  <text x="50" y="195" font-family="sans-serif" font-size="9" fill="#9CA3AF" text-anchor="end">25%</text>
+  <text x="50" y="150" font-family="sans-serif" font-size="9" fill="#9CA3AF" text-anchor="end">50%</text>
+  <text x="50" y="105" font-family="sans-serif" font-size="9" fill="#9CA3AF" text-anchor="end">75%</text>
+  <text x="50" y="65" font-family="sans-serif" font-size="9" fill="#9CA3AF" text-anchor="end">100%</text>
+  <!-- Grid lines -->
+  <line x1="60" y1="195" x2="350" y2="195" stroke="#E5E7EB" stroke-width="0.5" stroke-dasharray="4 3"/>
+  <line x1="60" y1="150" x2="350" y2="150" stroke="#E5E7EB" stroke-width="0.5" stroke-dasharray="4 3"/>
+  <line x1="60" y1="105" x2="350" y2="105" stroke="#E5E7EB" stroke-width="0.5" stroke-dasharray="4 3"/>
+  <line x1="60" y1="60" x2="350" y2="60" stroke="#E5E7EB" stroke-width="0.5" stroke-dasharray="4 3"/>
+  <!-- Bar 1: Disclosure - blue -->
+  <rect x="80" y="120" width="40" height="120" rx="4" fill="#003478"/>
+  <text x="100" y="255" font-family="sans-serif" font-size="9" fill="#374151" text-anchor="middle">Disclosure</text>
+  <text x="100" y="115" font-family="sans-serif" font-size="10" font-weight="bold" fill="#003478" text-anchor="middle">67%</text>
+  <!-- Bar 2: Investment - red -->
+  <rect x="140" y="96" width="40" height="144" rx="4" fill="#C60C30"/>
+  <text x="160" y="255" font-family="sans-serif" font-size="9" fill="#374151" text-anchor="middle">Investment</text>
+  <text x="160" y="91" font-family="sans-serif" font-size="10" font-weight="bold" fill="#C60C30" text-anchor="middle">80%</text>
+  <!-- Bar 3: Regulation - blue -->
+  <rect x="200" y="132" width="40" height="108" rx="4" fill="#003478"/>
+  <text x="220" y="255" font-family="sans-serif" font-size="9" fill="#374151" text-anchor="middle">Regulation</text>
+  <text x="220" y="127" font-family="sans-serif" font-size="10" font-weight="bold" fill="#003478" text-anchor="middle">60%</text>
+  <!-- Bar 4: Adoption - red -->
+  <rect x="260" y="108" width="40" height="132" rx="4" fill="#C60C30"/>
+  <text x="280" y="255" font-family="sans-serif" font-size="9" fill="#374151" text-anchor="middle">Adoption</text>
+  <text x="280" y="103" font-family="sans-serif" font-size="10" font-weight="bold" fill="#C60C30" text-anchor="middle">73%</text>
+  <!-- Bar 5: Rating - green (ESG accent) -->
+  <rect x="320" y="84" width="40" height="156" rx="4" fill="#059669"/>
+  <text x="340" y="255" font-family="sans-serif" font-size="9" fill="#374151" text-anchor="middle">Rating</text>
+  <text x="340" y="79" font-family="sans-serif" font-size="10" font-weight="bold" fill="#059669" text-anchor="middle">87%</text>
+  <!-- Bottom note -->
+  <text x="200" y="280" font-family="sans-serif" font-size="10" fill="#9CA3AF" text-anchor="middle">Korean Corporate ESG Readiness</text>
+</svg>

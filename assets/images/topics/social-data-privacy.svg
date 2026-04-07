@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="12" fill="#F5F3FF"/>
+  <!-- Shield shape -->
+  <path d="M200 45 L270 75 L270 155 Q270 210 200 240 Q130 210 130 155 L130 75 Z" fill="#EDE9FE" stroke="#8B5CF6" stroke-width="2.5"/>
+  <!-- Lock body -->
+  <rect x="175" y="130" width="50" height="40" rx="6" fill="#8B5CF6"/>
+  <!-- Lock shackle -->
+  <path d="M185 130 L185 112 Q185 97 200 97 Q215 97 215 112 L215 130" stroke="#7C3AED" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- Keyhole -->
+  <circle cx="200" cy="146" r="6" fill="#F5F3FF"/>
+  <rect x="198" y="150" width="4" height="10" rx="1" fill="#F5F3FF"/>
+  <!-- Data streams on shield -->
+  <rect x="145" y="90" width="22" height="3" rx="1.5" fill="#C4B5FD"/>
+  <rect x="145" y="98" width="16" height="3" rx="1.5" fill="#DDD6FE"/>
+  <rect x="233" y="90" width="22" height="3" rx="1.5" fill="#C4B5FD"/>
+  <rect x="239" y="98" width="16" height="3" rx="1.5" fill="#DDD6FE"/>
+  <!-- Binary-style dots -->
+  <circle cx="150" cy="185" r="3" fill="#C4B5FD"/>
+  <circle cx="160" cy="185" r="3" fill="#8B5CF6"/>
+  <circle cx="170" cy="185" r="3" fill="#C4B5FD"/>
+  <circle cx="230" cy="185" r="3" fill="#8B5CF6"/>
+  <circle cx="240" cy="185" r="3" fill="#C4B5FD"/>
+  <circle cx="250" cy="185" r="3" fill="#8B5CF6"/>
+  <!-- Small decorative elements -->
+  <circle cx="100" cy="80" r="5" fill="#DDD6FE"/>
+  <circle cx="300" cy="80" r="5" fill="#DDD6FE"/>
+  <rect x="90" y="180" width="8" height="8" rx="1" fill="#EDE9FE"/>
+  <rect x="302" y="180" width="8" height="8" rx="1" fill="#EDE9FE"/>
+  <!-- Label -->
+  <text x="200" y="272" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#8B5CF6">Data Privacy</text>
+</svg>
