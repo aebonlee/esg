@@ -23,6 +23,7 @@ const SustainableInvest = lazy(() => import('../pages/sustainable-invest/Sustain
 
 const AdminDashboard = lazy(() => import('../pages/admin/AdminDashboard'));
 const NotFound = lazy(() => import('../pages/NotFound'));
+const About = lazy(() => import('../pages/About'));
 
 function LoadingFallback(): ReactElement {
   return (
@@ -56,6 +57,8 @@ export default function PublicLayout(): ReactElement {
             <Route path="/sustainable-invest" element={<SustainableInvest />} />
 
             <Route path="/admin" element={<AdminGuard><AdminDashboard /></AdminGuard>} />
+            <Route path="/about" element={<About />} />
+
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Suspense>
